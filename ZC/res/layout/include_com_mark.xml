@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/prompt_llyt"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:layout_marginRight="20dp"
+	android:background="@drawable/bg_prompt_home_page"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:padding="10dp" >
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="查看佣金详情"
+		android:textColor="#FFFF"
+		android:textSize="12sp" />
+	<TextView
+		android:id="@+id/commission_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		android:textStyle="bold" />
+</LinearLayout>

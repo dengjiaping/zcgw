@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+		<!-- 需要在最大分辨率的文件夹里有这张图片，改图片只能缩小，不能放大，放大显示不来 -->
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:scaleType="fitCenter"
+			android:src="@drawable/user_guide" />
+	</ScrollView>
+</LinearLayout>

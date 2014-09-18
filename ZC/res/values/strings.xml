@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">掌财顾问</string>
+	<string name="login">登录</string>
+	<string name="please_input_username">请输入账户名/手机号</string>
+	<string name="please_input_password">请输入密码</string>
+	<string name="forget_password_suffix">忘记密码?</string>
+	<string name="request_to_be_financial_advisor">申请成为理财顾问</string>
+	<string name="forget_password">忘记密码</string>
+	<string name="please_input_phone_number">请输入手机号</string>
+	<string name="i_have_read_protocol"><u>我已经阅读了《掌财顾问用户协议》</u></string>
+	<string name="get_sms_captcha">获取验证码</string>
+	<string name="please_input_sms_captcha">请输入短信验证码</string>
+	<string name="sms_captcha_is_sending">短信验证码正在发送中</string>
+	<string name="reset_password">重设密码</string>
+	<string name="please_input_new_password">请输入新密码</string>
+	<string name="please_input_new_password_again">请再次输入新密码</string>
+	<string name="username_can_not_be_null">用户名不能为空</string>
+	<string name="username_has_wrong_format">用户名格式不正确</string>
+	<string name="phone_num_can_not_be_null">手机号码不能为空</string>
+	<string name="phone_num_has_wrong_format">手机号码格式不正确</string>
+	<string name="certain">确定</string>
+	<string name="sms_captcha_can_not_be_null">短信验证码不能为空</string>
+	<string name="new_password_can_not_be_null">新密码不能为空</string>
+	<string name="new_password_has_wrong_format">新密码格式不正确</string>
+	<string name="dup_password_can_not_be_null">重复密码不能为空</string>
+	<string name="dup_password_has_wrong_format">重复密码格式 不正确</string>
+	<string name="dup_password_is_diff_from_new_password">重复密码与新密码不一致</string>
+	<string name="input_info">填写信息</string>
+	<string name="name">姓名：</string>
+	<string name="please_input_client_name">请输入客户姓名</string>
+	<string name="phone_num">手机：</string>
+	<string name="please_input_your_phone_num">请输入手机号</string>
+	<string name="email">邮箱：</string>
+	<string name="please_input_your_email">请输入邮箱</string>
+	<string name="idcard_num">身份证：</string>
+	<string name="please_input_idcard_num">请输入身份证</string>
+	<string name="mailing_address">通讯地址：</string>
+	<string name="please_input_your_mailing_addr">请输入通讯地址</string>
+	<string name="remark">备注：</string>
+	<string name="please_input_remark">请输入备注</string>
+	<string name="add_client">新增客户</string>
+	<string name="xlistview_header_hint_normal">下拉刷新</string>
+	<string name="xlistview_header_hint_ready">松开刷新数据</string>
+	<string name="xlistview_header_hint_loading">正在加载</string>
+	<string name="xlistview_header_last_time">上次更新时间：</string>
+	<string name="xlistview_footer_hint_normal">查看更多</string>
+	<string name="xlistview_footer_hint_ready">松开载入更多</string>
+	<string name="reserve_money">预约金额(万)：</string>
+	<string name="please_input_money_sum">请输入金额</string>
+	<string name="cancel">取消</string>
+	<string name="try_again">重试</string>
+	<string name="goon">继续</string>
+	<string name="confirm">确认</string>
+	<string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+	<string name="lockpattern_error">"手势密码不对"</string>
+	<!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+	<string name="lockscreen_access_pattern_start">Pattern started</string>
+	<!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+	<string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+	<!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE] -->
+	<string name="lockscreen_access_pattern_cell_added">Cell added</string>
+	<!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+	<string name="lockscreen_access_pattern_detected">Pattern completed</string>
+	<string name="qq_app_id">101117583</string>
+	<string name="weixin_app_id">wx912ec3303f42284e</string>
+	<string name="client_protocol">\n服务协议
+\n\n本协议由您与掌财顾问的经营者共同缔结，本协议具有合同效力。
+\n\n一、掌财顾问使用规范：
+\n\t\t1. 您根据掌财顾问的理财资讯向客户进行推广宣传业务的，需保证客户是符合相关法律规定的投资人。
+\n\t\t2. 您应严格按照国家各金融监管机构的规定开展业务活动，不采用误导或可能误导客户的方式和内容进行宣传推广。
+\n\t\t3. 您保证在接到客户的投诉后，积极妥善处理。您与客户的一切纠纷，均与掌财顾问经营者无关。
+\n\t\t4. 掌财顾问中的资料信息，仅供推广业务参考，未得掌财顾问经营者同意，不得将之在业务范围外交予第三方使用。
+\n\t\t5. 掌财顾问经营者与您不具有雇佣、代理等关系，您不得利用掌财顾问的名称或公司数据（包括但不限于地址及电话等），行不实夸大之宣传而误导客户及其他损害客户利益的行为。
+\n\t\t6. 您在推广活动中，不得利用不正当竞争手段、恶意手段发展客户。
+\n\t\t7. 您提交的注册信息及您设置的银行卡信息，都将严格进行保密。除法律另有规定或监管机构要求披露外，掌财顾问均不会任意对外泄露。
+\n\n二、协议内容及签署：
+\n\t\t1. 本协议内容包括协议正文及所有掌财顾问已经发布的或将来可能发布的各类规则。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。
+\n\t\t2. 您应当在使用掌财顾问服务之前认真阅读全部协议内容，对于协议中以加粗字体显示的内容，您应重点阅读。如您使用掌财顾问服务，则本协议即对您产生约束，届时您不应以未阅读本协议的内容为由，主张本协议无效，或要求撤销本协议。
+\n\t\t3. 您承诺接受并遵守本协议的约定。如果您不同意本协议的约定，您应立即停止注册使用掌财顾问。如果您注册完成本平台，将被视为接受本协议全部条款，接受本协议约束。
+\n\t\t4. 掌财顾问有权根据需要不时地制订、修改本协议及/或各类规则，并以网站公示的方式进行公告，不再单独通知您。变更后的协议和规则一经在网站公布后，立即自动生效。如您不同意相关变更，应当立即停止使用掌财顾问服务。您继续使用掌财顾问服务的，即表示您接受经修订的协议和规则。
+\n\t\t5. 掌财顾问即掌财顾问提供给您用于查看理财资讯、进行专业投资管理服务的工具平台。
+\n\n三、违约责任
+\n\t\t您未按本协议约定履行其义务，出现违反上述条款之一的，掌财顾问经营者有权终止支付服务费。情节严重的，掌财顾问经营者有权单方终止本协议。协议终止后，掌财顾问经营者依旧有权要求您承担违约责任。
+\n\n四、其他约定
+\n\t\t1. 本协议之效力、解释、变更、执行与争议解决均适用中华人民共和国大陆地区法律，如无相关法律规定的，则应参照通用国际商业惯例和（或）行业惯例。
+\n\t\t2. 因本协议产生之争议的，您与掌财顾问经营者均同意以掌财顾问经营者住所地人民法院为管辖法院。</string>
+	<string name="setting_title_phone">手机号：</string>
+	<string name="setting_title_phone_input">请输入手机号</string>
+	<string name="setting_title_verify_code">验证码：</string>
+	<string name="setting_title_verify_code_input">请输入验证码</string>
+	<string name="setting_title_name">姓名：</string>
+	<string name="setting_title_name_input">请输入您的姓名</string>
+	<string name="setting_title_cid">身份证号：</string>
+	<string name="setting_title_cid_input">请输入您的身份证号</string>
+	<string name="setting_title_bankower">开户名：%1$s</string>
+	<string name="setting_title_bankname">开户支行：</string>
+	<string name="setting_title_bankname_name">开户支行：%1$s</string>
+	<string name="setting_title_bankname_input">请输入您的开户银行支行</string>
+	<string name="setting_title_bankcode">银行账号：</string>
+	<string name="setting_title_bankcode_input">请输入您的银行账号</string>
+	<string name="setting_title_email">电子邮箱：</string>
+	<string name="setting_title_email_input">请输入您的电子邮箱</string>
+	<string name="setting_title_oldpwd">原登录密码</string>
+	<string name="setting_title_oldpwd_input">请输入原始密码</string>
+	<string name="setting_title_pwd">设置密码</string>
+	<string name="setting_title_pwd_input">请设置新登录密码</string>
+	<string name="setting_title_pwdagain">重复密码</string>
+	<string name="setting_title_pwdagain_input">请重复输入登录密码</string>
+	<string name="setting_address_name">姓名：</string>
+	<string name="setting_address_name_input">请输入收件人姓名</string>
+	<string name="setting_address_phone">电话：</string>
+	<string name="setting_address_phone_input">请输入收件人电话</string>
+	<string name="user_setting_title">账号设置</string>
+	<string name="user_setting_phone">手机号码</string>
+	<string name="user_setting_realname">实名认证</string>
+	<string name="user_setting_cid">身份认证</string>
+	<string name="user_setting_bank">银行卡管理</string>
+	<string name="user_setting_address">邮寄地址</string>
+	<string name="user_setting_email">电子邮箱</string>
+	<string name="user_setting_password">修改密码</string>
+	<string name="verify_wait_code">%1$s秒后重新获取</string>
+	<string name="verify_wait_code_normal">获取验证码</string>
+	<string name="gl_wait">请稍等</string>
+	<string name="client_service_phone">4008220800</string>
+	<!-- -liujie -->
+	<!-- -liujie -->
+	<!-- 关于掌财 begin -->
+	<string name="about_official_website">"官方网站"</string>
+	<string name="about_website_url">www.zcguwen.com</string>
+	<string name="about_cooperation">"产品合作热线"</string>
+	<string name="about_hot_line">官方服务热线</string>
+	<string name="about_coope_phone">0755&#8211;28712858</string>
+	<string name="about_server_phone">"400&#8211;822&#8211;0800"</string>
+	<string name="about_server_phone_number">"4008220800"</string>
+	<string name="about_coope_phone_num">075528712858</string>
+	<string name="about_right">版权为深圳掌龙无限科技有限公司所有</string>
+	<string name="about_follow_us">关注掌财顾问</string>
+	<string name="about_update_download_finish">下载完成,点击安装</string>
+	<string name="about_introduction">\t\t\t掌财顾问是一款基于移动互联网的在线顾问平台，目标是打造全球规模最大的独立理财顾问团队，平台提供丰富的、经过专业的风控团队严格筛选出来的理财产品，同时配套便捷的分享和订单管理功能，绝对是理财顾问的最好用的工具、最值得信任的好伙伴。</string>
+	<!-- 关于掌财 end -->
+	<string name="action_settings">设置</string>
+	<string name="actionbar_activity_not_found">Failed to open intent...</string>
+	<string name="share_by_weixin">微信分享</string>
+	<string name="share_by_qq">QQ分享</string>
+	<string name="share_by_yixin">易信分享</string>
+	<string name="shake_share">注册摇一摇截图->分享</string>
+	<string name="shake_openshare">注册摇一摇打开分享面板</string>
+	<string name="shake_scrshot">注册摇一摇截图</string>
+	<string name="take_scrshot">直接截图</string>
+	<string name="play">播放</string>
+	<string name="pause">暂停</string>
+	<string name="stop">停止</string>
+	<string name="quit">退出</string>
+	<string name="video_start_time">00:00</string>
+	<string name="goto_video">摇一摇视频截图Activity</string>
+	<string name="goto_game">游戏Activity</string>
+	<string name="goto_common">普通Activity</string>
+	<string name="video">VideoActivity</string>
+	<string name="game">GameActivity</string>
+	<string name="common">CommonActivity</string>
+	<string name="back">返回</string>
+	<string name="goto_facebook">添加Facebook分享</string>
+	<string name="fb_login">Facebook登录</string>
+	<string name="fb_logout">Facebook注销</string>
+	<string name="fb_share">Facebook分享</string>
+	<string name="laiwang_share">来往分享</string>
+	<string name="instagram_share">Instagram分享</string>
+	<string name="fb_app_id">567261760019884</string>
+	<string name="photo_post">Photo Post</string>
+	<string name="success">Success</string>
+	<string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+	<string name="error">Error</string>
+	<string name="status_update">Updating Facebook status at </string>
+	<string name="ok">OK</string>
+	<string name="cancelled">Cancelled</string>
+	<string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+</resources>

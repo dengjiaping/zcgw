@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/parent_container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="15dp" >
+			<TextView
+				android:id="@+id/tv_msg_title"
+				style="@style/text_18_s_b_n"
+				android:layout_gravity="center_horizontal"
+				android:text="我的一个消息" />
+			<TextView
+				android:id="@+id/tv_msg_time"
+				style="@style/text_18_s_b_n"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="5dp"
+				android:text="2012-12-11"
+				android:textColor="@color/gray"
+				android:textSize="14sp" />
+			<TextView
+				android:id="@+id/content_txt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:singleLine="false"
+				android:textColor="@color/gray_dark"
+				android:textSize="18sp" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

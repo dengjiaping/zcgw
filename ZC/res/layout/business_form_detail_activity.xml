@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#E3E3E3"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingBottom="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+			<TextView
+				android:id="@+id/product_title_tv"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@color/khaki_light"
+				android:drawablePadding="50dp"
+				android:drawableRight="@drawable/ic_red_arrow"
+				android:paddingBottom="15dp"
+				android:paddingLeft="20dp"
+				android:paddingRight="10dp"
+				android:paddingTop="15dp"
+				android:text="四川信托-万事兴"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textColor="@android:color/black"
+				android:typeface="sans" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical"
+				android:paddingLeft="20dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/bg_edit_up"
+					android:paddingBottom="15dp"
+					android:paddingTop="15dp" >
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="投资客户" />
+					<TextView
+						android:id="@+id/cus_name_tv"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="20dp"
+						android:text="王中王"
+						android:textColor="@color/khaki_dark" />
+					<TextView
+						android:id="@+id/phone_tv"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="20dp"
+						android:text="13589654123"
+						android:textColor="@color/khaki_dark" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingBottom="15dp"
+					android:paddingTop="15dp" >
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="投资金额" />
+					<TextView
+						android:id="@+id/money_tv"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="20dp"
+						android:text="200万"
+						android:textColor="@color/khaki_dark" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/bank_card_llyt"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:layout_marginRight="20dp"
+					android:background="#F4EEE8"
+					android:orientation="vertical"
+					android:paddingBottom="15dp"
+					android:paddingLeft="20dp"
+					android:paddingRight="20dp"
+					android:paddingTop="15dp"
+					android:visibility="gone" >
+					<TextView
+						android:id="@+id/bank_num_tv"
+						style="@style/KhakiText" />
+					<TextView
+						android:id="@+id/account_name_tv"
+						style="@style/KhakiText" />
+					<TextView
+						android:id="@+id/bank_name_tv"
+						style="@style/KhakiText" />
+				</LinearLayout>
+			</LinearLayout>
+			<!-- 业务表单就是加入到这里 -->
+			<LinearLayout
+				android:id="@+id/list_llyt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="10dp"
+				android:visibility="gone" >
+			</LinearLayout>
+			<!-- 无业务单时显示此布局 -->
+			<LinearLayout
+				android:id="@+id/time_backwords_llyt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingTop="10dp"
+				android:visibility="gone" >
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="20dp"
+					android:layout_marginRight="20dp"
+					android:text="您的预约已提交！客服稍后将联系您，预计等待时间剩："
+					android:textAppearance="@android:style/TextAppearance.Small"
+					android:textColor="@color/gray_dark" />
+				<com.hct.zc.widget.TimeBackwordsView
+					android:id="@+id/time_backwords_view"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="20dp"
+					android:layout_marginRight="20dp"
+					android:layout_marginTop="10dp" />
+				<Button
+					android:id="@+id/call_server_btn"
+					style="@style/OrangeButton"
+					android:layout_marginTop="20dp"
+					android:text="客服热线：400-822-0800" />
+				<Button
+					android:id="@+id/urge_btn"
+					style="@style/RedButton"
+					android:layout_marginTop="15dp"
+					android:text="过时催单" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

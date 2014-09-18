@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/khaki_light"
+		android:orientation="vertical" >
+		<TextView
+			android:id="@+id/product_title_tv"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="15dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="10dp"
+			android:paddingTop="15dp"
+			android:text="四川信托-万事兴"
+			android:textAppearance="@android:style/TextAppearance.Small"
+			android:textColor="@android:color/black"
+			android:typeface="sans" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#77000000"
+			android:paddingBottom="5dp"
+			android:paddingTop="5dp" >
+			<TextView
+				style="@style/ComsDetailHead"
+				android:layout_weight="5"
+				android:text="认购金额(万)" />
+			<TextView
+				style="@style/ComsDetailHead"
+				android:layout_weight="3"
+				android:text="预期收益率" />
+			<TextView
+				style="@style/ComsDetailHead"
+				android:layout_weight="2"
+				android:text="佣金率" />
+		</LinearLayout>
+	</LinearLayout>
+	<ListView
+		android:id="@+id/coms_lv"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/white"
+		android:cacheColorHint="@null"
+		android:divider="@drawable/div_lv_personal_setting"
+		android:drawSelectorOnTop="false"
+		android:fadeScrollbars="true"
+		android:fadingEdge="none"
+		android:scrollbarStyle="outsideOverlay"
+		android:scrollingCache="false" >
+	</ListView>
+	<TextView
+		style="@style/JiuhongTV"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="30dp"
+		android:text="佣金结算方式：" />
+	<TextView
+		android:id="@+id/com_caption"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="10dp"
+		android:textColor="@android:color/darker_gray"
+		android:textSize="20sp" />
+</LinearLayout>

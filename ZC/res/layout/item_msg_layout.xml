@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_edit_up"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp" >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/tv_msg_title"
+                    style="@style/text_18_s_b_n"
+                    android:text="我的一个消息" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1px"
+                    android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/tv_msg_time"
+                    style="@style/text_18_s_b_n"
+                    android:text="2012-12-11"
+                    android:textColor="@color/blue"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/content_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="a6faf6a4f4af1a3f4aefa6wefawf 傅海峰还of哈维好烦i哦阿凡i啊哈富婆啊哈富婆阿海珐i哦啊贺卫方怕黑发哦饭后阿海珐澳网发破福建奥房价奥房价奥法好烦好晚饭好舒服ias福建奥塞夫joas减肥哦啊手机费哦啊十分爱好玩放假哦啊福建奥塞减肥奥莎发匠奥金顿发哦释迦佛垃圾flak解放路ask放假阿隆索放假啊 "
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_personal_setting_arrow" />
+</LinearLayout>

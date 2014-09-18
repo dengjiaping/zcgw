@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InputLlytTheme"
+    android:layout_marginLeft="10dp"
+    >
+    
+    <TextView 
+        android:id="@+id/tv_name"
+        style="@style/text_18_s_b_n"/>
+	
+    <EditText 
+        android:id="@+id/et_content"
+        style="@style/edit_18_s_b"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:background="@null"/>
+    
+</LinearLayout>

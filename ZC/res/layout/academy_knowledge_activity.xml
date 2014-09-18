@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<TextView
+		android:id="@+id/question_tv"
+		style="@style/text_18_s_b_n"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="20dp"
+		android:text="掌财学院的知识" />
+	<WebView
+		android:id="@+id/content_wv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+</LinearLayout>

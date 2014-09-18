@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="gesture_lock_marging">60dp</dimen>
+	<dimen name="gif_width">232px</dimen>
+	<dimen name="gif_height">112px</dimen>
+</resources>

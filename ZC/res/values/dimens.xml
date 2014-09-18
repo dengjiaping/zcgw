@@ -1,0 +1,23 @@
+<resources>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="input_et_margin_left">20dp</dimen>
+	<dimen name="personal_info_height">45dp</dimen>
+	<dimen name="personal_info_drawable_padding">10dp</dimen>
+	<dimen name="deal_record_pic_width">35dp</dimen>
+	<!-- 滑动菜单阴影宽度 -->
+	<dimen name="shadow_width">15dp</dimen>
+	<dimen name="slidingmenu_offset">60dp</dimen>
+	<dimen name="gesture_lock_marging">40dp</dimen>
+	<dimen name="body_padding_medium">10dp</dimen>
+	<dimen name="body_padding_large">10dp</dimen>
+	<dimen name="text_size_small">14sp</dimen>
+	<dimen name="text_size_medium">18sp</dimen>
+	<dimen name="text_size_large">18sp</dimen>
+	<dimen name="text_size_xlarge">18sp</dimen>
+	<dimen name="speaker_image_size">36dp</dimen>
+	<dimen name="speaker_image_padding">8dp</dimen>
+	<dimen name="vendor_image_size">100dp</dimen>
+	<dimen name="actionbar_height">45dip</dimen>
+	<dimen name="actionbar_item_height">45dip</dimen>
+	<dimen name="actionbar_item_width">45dip</dimen>
+</resources>

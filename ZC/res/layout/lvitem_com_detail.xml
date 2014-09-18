@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/white"
+	android:orientation="horizontal"
+	android:paddingBottom="10dp"
+	android:paddingTop="10dp" >
+	<TextView
+		android:id="@+id/purchase_amount_tv"
+		style="@style/ComsDetailHead"
+		android:layout_weight="5"
+		android:paddingLeft="5dp"
+		android:text="30~40(含30)"
+		android:textAppearance="@android:style/TextAppearance.Small"
+		android:textColor="@android:color/black" />
+	<TextView
+		android:id="@+id/yield_tv"
+		style="@style/ComsDetailHead"
+		android:layout_weight="3"
+		android:paddingLeft="5dp"
+		android:text="8.3%"
+		android:textAppearance="@android:style/TextAppearance.Small"
+		android:textColor="@android:color/black" />
+	<TextView
+		android:id="@+id/com_tv"
+		style="@style/ComsDetailHead"
+		android:layout_weight="2"
+		android:paddingLeft="5dp"
+		android:text="2.8%"
+		android:textAppearance="@android:style/TextAppearance.Small"
+		android:textColor="@color/dark_orange" />
+</LinearLayout>

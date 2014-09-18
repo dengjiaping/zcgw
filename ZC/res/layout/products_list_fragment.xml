@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_nomal"
+    android:clickable="true"
+    android:orientation="vertical" >
+    <!-- 标题烂 -->
+    <RelativeLayout
+        android:id="@+id/titlebar_rlyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_dark"
+        android:gravity="center_vertical" >
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_back" />
+        <CheckBox
+            android:id="@+id/product_type_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:button="@null"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/bg_type_cb"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_sliding_menu"
+            android:clickable="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_dark"
+        android:paddingBottom="5dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/keyword_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入关键字进行搜索"
+                android:imeOptions="actionSearch"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textAppearance="@android:style/TextAppearance.Small" />
+            <Button
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_search_product" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 三个筛选 -->
+    <LinearLayout
+        android:id="@+id/option_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/founds_to_invest_rlyt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <CheckBox
+                android:id="@+id/founds_to_invest_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:drawableRight="@drawable/bg_option_cb"
+                android:gravity="center"
+                android:text="资金投向" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:background="#000" />
+        <RelativeLayout
+            android:id="@+id/product_deadline_rlyt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <CheckBox
+                android:id="@+id/product_deadline_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:drawableRight="@drawable/bg_option_cb"
+                android:gravity="center"
+                android:text="产品期限" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:background="#000" />
+        <RelativeLayout
+            android:id="@+id/profits_rlyt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <CheckBox
+                android:id="@+id/profits_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:drawableRight="@drawable/bg_option_cb"
+                android:gravity="center"
+                android:text="收益分配" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.hct.zc.widget.XListView
+        android:id="@+id/products_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_input_layout"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="false" >
+    </com.hct.zc.widget.XListView>
+</LinearLayout>

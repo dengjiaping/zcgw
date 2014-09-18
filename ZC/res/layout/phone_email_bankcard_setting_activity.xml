@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <TextView
+        android:id="@+id/prompt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/content_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_layout"
+        android:padding="10dp"
+        android:textColor="@android:color/darker_gray" />
+    <Button
+        android:id="@+id/certain_btn"
+        style="@style/OrangeButton"
+        android:layout_marginTop="15dp"
+        android:text="@string/certain" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF0000"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="15dp" >
+    <LinearLayout
+        android:id="@+id/info_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="15dp" >
+        <!-- 重庆信托-万事兴       精选产品 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <include layout="@layout/include_product_title" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="精选产品"
+                android:textColor="#FFC88C" />
+        </LinearLayout>
+        <!-- 预期收益 产品期限 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical" >
+            <include layout="@layout/include_profit_deadline" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 佣金 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/info_llyt"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:background="#000000"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="佣金"
+            android:textColor="#FFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.389%"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#FFFF" />
+    </LinearLayout>
+</RelativeLayout>

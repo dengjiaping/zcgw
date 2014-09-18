@@ -1,0 +1,1322 @@
+cn.jpush.android.a.d:
+    public java.util.List B
+cn.jpush.android.api.CustomPushNotificationBuilder:
+    public CustomPushNotificationBuilder(android.content.Context,int,int,int,int)
+cn.jpush.android.api.JPushInterface:
+    public JPushInterface()
+    public static void resumePush(android.content.Context)
+    public static void stopPush(android.content.Context)
+    public static boolean isPushStopped(android.content.Context)
+    public static void setDefaultPushNotificationBuilder(cn.jpush.android.api.BasicPushNotificationBuilder)
+    public static void setPushTime(android.content.Context,java.util.Set,int,int)
+    public static void setSilenceTime(android.content.Context,int,int,int,int)
+    public static void setPushNotificationBuilder(java.lang.Integer,cn.jpush.android.api.BasicPushNotificationBuilder)
+    public static void setAliasAndTags(android.content.Context,java.lang.String,java.util.Set)
+    private static void a(android.content.Context,boolean,java.lang.String)
+    public static java.lang.String getRegistrationID(android.content.Context)
+    public static java.lang.String getUdid(android.content.Context)
+    public static void clearAllNotifications(android.content.Context)
+    public static void clearNotificationById(android.content.Context,int)
+    public static void setTags(android.content.Context,java.util.Set,cn.jpush.android.api.TagAliasCallback)
+    public static void onKillProcess(android.content.Context)
+    public static void reportNotificationOpened(android.content.Context,java.lang.String)
+    public static void setStatisticsSessionTimeout(long)
+    public static void setSessionTimeout(long)
+    public static void setStatisticsEnable(boolean)
+    private static void a(android.content.Context,boolean)
+    public static void initCrashHandler(android.content.Context)
+cn.jpush.android.api.c:
+    public final void a(android.content.Context)
+cn.jpush.android.api.e:
+    public final void a(long)
+    public final void a(boolean)
+    public final void c(android.content.Context)
+cn.jpush.android.api.h
+cn.jpush.android.api.k:
+    public static void a(android.content.Context)
+cn.jpush.android.b
+cn.jpush.android.c.f:
+    protected static void a(java.lang.String,java.lang.String)
+cn.jpush.android.c.v:
+    public static void c(java.lang.String,java.lang.String)
+cn.jpush.android.service.ServiceInterface:
+    java.util.WeakHashMap c
+    public ServiceInterface()
+    public static void b(android.content.Context)
+    public static void d(android.content.Context)
+    public static void a(android.content.Context,boolean,java.lang.String)
+    public static void a(android.content.Context,java.lang.String)
+    public static void i(android.content.Context)
+    public static boolean a(android.content.Context,int,int,int,int)
+cn.jpush.android.ui.ListViewActivity
+cn.jpush.android.ui.g
+cn.jpush.android.ui.h
+com.ant.liao.GifDecoder:
+    125:125:public int getStatus()
+    133:133:public boolean parseOk()
+    142:149:public int getDelay(int)
+    157:165:public int[] getDelays()
+    186:186:public int getLoopCount()
+    288:288:public com.ant.liao.GifFrame getCurrentFrame()
+    314:315:public void reset()
+com.ant.liao.GifView:
+    194:199:public void showCover()
+    206:209:public void showAnimation()
+com.ant.liao.R
+com.ant.liao.R$attr
+com.ant.liao.R$drawable
+com.ant.liao.R$string
+com.hct.zc.BuildConfig
+com.hct.zc.Manifest
+com.hct.zc.Manifest$permission
+com.hct.zc.R:
+    10:10:public R()
+com.hct.zc.R$anim
+com.hct.zc.R$animator
+com.hct.zc.R$array
+com.hct.zc.R$attr
+com.hct.zc.R$color
+com.hct.zc.R$dimen
+com.hct.zc.R$drawable
+com.hct.zc.R$id
+com.hct.zc.R$layout
+com.hct.zc.R$raw
+com.hct.zc.R$string
+com.hct.zc.R$style
+com.hct.zc.R$styleable:
+    2059:2059:public R$styleable()
+com.hct.zc.activity.base.BaseActivity:
+    80:80:public void noBtnWork()
+com.hct.zc.activity.setting.SetAddressActivity:
+    java.lang.String lastCodeString
+com.hct.zc.adapter.ZBaseAdapter:
+    public int mLayout
+    33:38:public ZBaseAdapter(java.util.List,android.app.Activity,int)
+com.hct.zc.application.MyUncaughtExceptionHandler
+com.hct.zc.bean.AcademyClass:
+    18:19:public void setTitle(java.lang.String)
+    26:27:public void setContexts(java.util.List)
+com.hct.zc.bean.AcademyContent:
+    18:19:public void setTitle(java.lang.String)
+    26:27:public void setContext(java.lang.String)
+com.hct.zc.bean.ApkBean:
+    8:8:public ApkBean()
+com.hct.zc.bean.CachePageUrl:
+    3:3:public CachePageUrl()
+com.hct.zc.bean.Client:
+    27:27:public java.lang.String getIdcard()
+    31:32:public void setIdcard(java.lang.String)
+    39:40:public void setRemark(java.lang.String)
+    47:48:public void setUserId(java.lang.String)
+    75:75:public java.lang.String getRegDate()
+    79:80:public void setRegDate(java.lang.String)
+com.hct.zc.bean.Commission:
+    35:36:public void setPname(java.lang.String)
+    43:44:public void setCname(java.lang.String)
+    51:52:public void setMoney(java.lang.String)
+    59:60:public void setAmount(java.lang.String)
+    67:68:public void setDate(java.lang.String)
+com.hct.zc.bean.CommissionGroup
+com.hct.zc.bean.DealRecord:
+    private java.lang.String money1
+    86:87:public void setCus_phone(java.lang.String)
+    98:98:public java.lang.String getMoney1()
+com.hct.zc.bean.FlashImage:
+    3:3:public FlashImage()
+com.hct.zc.bean.ImageInfo:
+    24:25:public void setPic(java.lang.String)
+com.hct.zc.bean.PageUrl
+com.hct.zc.bean.Product:
+    private java.lang.String attention
+    private java.lang.String hot
+    76:77:public void setId(java.lang.String)
+    84:85:public void setName(java.lang.String)
+    92:93:public void setCommission(java.lang.String)
+    100:101:public void setPeriod(java.lang.String)
+    108:109:public void setExpectedrevenue(java.lang.String)
+    112:112:public java.lang.String getAttention()
+    116:117:public void setAttention(java.lang.String)
+    120:120:public java.lang.String getHot()
+    124:125:public void setHot(java.lang.String)
+    132:133:public void setAppointstate(java.lang.String)
+com.hct.zc.bean.ProductDetailInfo:
+    private java.lang.String id
+    private java.lang.String period
+    private java.lang.String expectedrevenue
+    private java.lang.String mortgage
+    private java.lang.String circulation_explain
+    private java.lang.String yield_explain
+    private java.lang.String capital_apply
+    private java.lang.String risk_control
+    private java.lang.String main_state
+    private java.lang.String pic
+    private java.lang.String main_pic
+    private java.lang.String lcd
+    private java.lang.String pro_exchangerate
+    private java.lang.String typesname
+    private java.lang.String directionname
+    private java.lang.String companyname
+    private java.lang.String etc
+    private java.lang.String keepbank
+    private java.lang.String payback_source
+    private java.lang.String state
+    private java.lang.String hot
+    private java.lang.String suretyname
+    3:3:public ProductDetailInfo()
+    138:139:public void setAppointstate(java.lang.String)
+    142:142:public java.lang.String getId()
+    146:147:public void setId(java.lang.String)
+    154:155:public void setName(java.lang.String)
+    162:163:public void setFullname(java.lang.String)
+    170:171:public void setCommission(java.lang.String)
+    174:174:public java.lang.String getPeriod()
+    178:179:public void setPeriod(java.lang.String)
+    182:182:public java.lang.String getExpectedrevenue()
+    186:187:public void setExpectedrevenue(java.lang.String)
+    194:195:public void setMin_invoice(java.lang.String)
+    198:198:public java.lang.String getMortgage()
+    202:203:public void setMortgage(java.lang.String)
+    206:206:public java.lang.String getCirculation_explain()
+    210:211:public void setCirculation_explain(java.lang.String)
+    214:214:public java.lang.String getYield_explain()
+    218:219:public void setYield_explain(java.lang.String)
+    222:222:public java.lang.String getCapital_apply()
+    226:227:public void setCapital_apply(java.lang.String)
+    230:230:public java.lang.String getRisk_control()
+    234:235:public void setRisk_control(java.lang.String)
+    242:243:public void setShare_explain(java.lang.String)
+    246:246:public java.lang.String getMain_state()
+    250:251:public void setMain_state(java.lang.String)
+    254:254:public java.lang.String getPic()
+    258:259:public void setPic(java.lang.String)
+    262:262:public java.lang.String getMain_pic()
+    266:267:public void setMain_pic(java.lang.String)
+    270:270:public java.lang.String getLcd()
+    274:275:public void setLcd(java.lang.String)
+    278:278:public java.lang.String getPro_exchangerate()
+    282:283:public void setPro_exchangerate(java.lang.String)
+    286:286:public java.lang.String getTypesname()
+    290:291:public void setTypesname(java.lang.String)
+    294:294:public java.lang.String getDirectionname()
+    298:299:public void setDirectionname(java.lang.String)
+    302:302:public java.lang.String getCompanyname()
+    306:307:public void setCompanyname(java.lang.String)
+    310:310:public java.lang.String getEtc()
+    314:315:public void setEtc(java.lang.String)
+    318:318:public java.lang.String getKeepbank()
+    322:323:public void setKeepbank(java.lang.String)
+    326:326:public java.lang.String getPayback_source()
+    330:331:public void setPayback_source(java.lang.String)
+    334:334:public java.lang.String getState()
+    338:339:public void setState(java.lang.String)
+    342:342:public java.lang.String getHot()
+    346:347:public void setHot(java.lang.String)
+    350:350:public java.lang.String getSuretyname()
+    354:355:public void setSuretyname(java.lang.String)
+com.hct.zc.bean.UserInfo:
+    166:167:public void setAccreditation(java.lang.String)
+com.hct.zc.bean.VerifyCode:
+    3:3:public VerifyCode()
+    11:12:public void setCode(java.lang.String)
+com.hct.zc.constants.BroadcastAction
+com.hct.zc.db.Academy
+com.hct.zc.fragment.BaseFragment:
+    35:39:protected void clearBackStack()
+    42:45:protected void hideSystemKeyboard(android.widget.EditText)
+com.hct.zc.fragment.ProductsListFragment:
+    790:790:private boolean returnSuccess(com.hct.zc.http.result.HttpResult)
+com.hct.zc.fragment.RightMenuFragment
+com.hct.zc.http.HttpRequest:
+    25:25:public HttpRequest()
+    517:529:public static void doUpdatePwd(android.app.Activity,java.lang.String,java.lang.String,com.hct.zc.http.HttpHelper$OnHttpResponse)
+    724:728:public static void doUpLoadFile(android.app.Activity,java.lang.String,java.io.File)
+    765:766:public static void getProductDetailUrl(android.app.Activity,com.hct.zc.http.HttpHelper$OnHttpResponse)
+    770:780:private static void getHtmlUrl(android.app.Activity,java.lang.String,com.hct.zc.http.HttpHelper$OnHttpResponse)
+com.hct.zc.http.HttpUrl
+com.hct.zc.http.result.AcademyResult:
+    16:17:public void setAcademys(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.AddressBeansResult:
+    22:23:public void setAddress(java.util.List)
+    32:33:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.ApkResult:
+    20:21:public void setVersioninfo(com.hct.zc.bean.ApkBean)
+    30:31:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.CachePageUrlResult:
+    15:16:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.CommissionResult:
+    16:17:public void setComms(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.DealRecordsResult:
+    16:17:public void setIvnInfos(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.FlashImageResult:
+    16:17:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.FoundsToInvestResult:
+    16:17:public void setDirections(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.GuaranteesResult
+com.hct.zc.http.result.HttpResult:
+    22:23:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.LoginResult:
+    14:15:public void setUserInfo(com.hct.zc.bean.UserInfo)
+    24:25:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.MainProductResult:
+    27:28:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.MyClientsResult:
+    16:17:public void setCustomerInfos(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.ProductClassifyResult:
+    16:17:public void setClassify(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.ProductDeadlineResult:
+    16:17:public void setPeriods(java.util.List)
+    26:27:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.ProductDetailResult:
+    29:30:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.ProductDetailUrlResult
+com.hct.zc.http.result.ProductsResult:
+    21:22:public void setResult(com.hct.zc.http.result.Result)
+    29:30:public void setCurrentPage(int)
+    37:38:public void setTotalPages(int)
+    45:46:public void setPerInfos(java.util.List)
+com.hct.zc.http.result.ProfitsResult:
+    18:19:public void setResult(com.hct.zc.http.result.Result)
+    26:27:public void setProfits(java.util.List)
+com.hct.zc.http.result.RecordsResult:
+    24:25:public void setRecords(java.util.List)
+    34:35:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.Result:
+    3:3:public Result()
+    14:15:public void setErrorcode(java.lang.String)
+    22:23:public void setErrormsg(java.lang.String)
+com.hct.zc.http.result.SysMsgResult:
+    22:23:public void setMyMsgs(java.util.List)
+    32:33:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.UploadRemitSlipResult:
+    16:17:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.http.result.VerifyCodeResult:
+    14:15:public void setResultcode(com.hct.zc.bean.VerifyCode)
+    24:25:public void setResult(com.hct.zc.http.result.Result)
+com.hct.zc.pic.CropImage:
+    146:148:public android.graphics.Bitmap cropAndSave(android.graphics.Bitmap)
+    156:158:public void cropCancel()
+com.hct.zc.pic.CropImage$1:
+    237:275:private void handleFace(android.media.FaceDetector$Face)
+com.hct.zc.pic.CropImageView:
+    51:56:protected void zoomIn()
+    60:65:protected void zoomOut()
+com.hct.zc.pic.GLRequestExecutor
+com.hct.zc.pic.ImageViewTouchBase:
+    protected int mLastXTouchPos
+    protected int mLastYTouchPos
+    static final float SCALE_RATE
+    332:333:protected void zoomIn()
+    336:337:protected void zoomOut()
+    340:352:protected void zoomIn(float)
+    355:373:protected void zoomOut(float)
+com.hct.zc.pic.RotateBitmap:
+    16:19:public RotateBitmap(android.graphics.Bitmap,int)
+    74:78:public void recycle()
+com.hct.zc.pic.UploadUtil:
+    95:107:public void uploadFile(java.lang.String,java.lang.String,java.lang.String,java.util.Map)
+    309:309:public int getReadTimeOut()
+    313:314:public void setReadTimeOut(int)
+    317:317:public int getConnectTimeout()
+    321:322:public void setConnectTimeout(int)
+    328:328:public static int getRequestTime()
+com.hct.zc.pic.UploadUtil$uploadProcessListener
+com.hct.zc.pic.ZoomableImageView:
+    static final float sPanRate
+    static final float sScaleRate
+    static final int sPaintDelay
+    static final int sAnimationDelay
+    110:112:public ZoomableImageView(android.content.Context)
+    156:159:public void clear()
+    402:403:protected void zoomIn()
+    407:408:protected void zoomOut()
+    412:425:protected void zoomIn(float)
+    429:446:protected void zoomOut(float)
+com.hct.zc.service.PhoneNumFormater:
+    10:10:public PhoneNumFormater()
+com.hct.zc.service.UnzipFiler:
+    58:66:private void delFolder(java.lang.String)
+    71:98:private boolean delAllFile(java.lang.String)
+com.hct.zc.utils.BitmapCompressor
+com.hct.zc.utils.ConfigUtil
+com.hct.zc.utils.Const:
+    13:13:public Const()
+com.hct.zc.utils.ContextUtil:
+    11:11:public ContextUtil()
+com.hct.zc.utils.DateUtils:
+    14:14:public DateUtils()
+    21:21:public static java.lang.String convertUtilDateToStringWithoutTime(java.util.Date)
+    36:45:public static java.util.Date convertStringToUtilDate(java.lang.String)
+com.hct.zc.utils.GsonUtil
+com.hct.zc.utils.GsonUtil$1
+com.hct.zc.utils.HighlightView
+com.hct.zc.utils.HighlightView$ModifyMode
+com.hct.zc.utils.InputFormatChecker:
+    6:6:public InputFormatChecker()
+    28:28:public static boolean isIdCardEligible(java.lang.String)
+    35:35:public static boolean isBankCardEligible(java.lang.String)
+com.hct.zc.utils.LogUtil:
+    7:7:public LogUtil()
+    14:18:public static void v(java.lang.Object,java.lang.String)
+    43:47:public static void v(java.lang.Object,java.lang.String,java.lang.Throwable)
+    50:54:public static void d(java.lang.Object,java.lang.String,java.lang.Throwable)
+    57:61:public static void i(java.lang.Object,java.lang.String,java.lang.Throwable)
+    64:66:public static void w(java.lang.Object,java.lang.String,java.lang.Throwable)
+    69:71:public static void e(java.lang.Object,java.lang.String,java.lang.Throwable)
+com.hct.zc.utils.SDCardUtil:
+    13:13:public SDCardUtil()
+com.hct.zc.utils.SharedUtil:
+    27:27:public SharedUtil()
+com.hct.zc.utils.StringUtils:
+    6:6:public StringUtils()
+    18:19:public static java.lang.String optimizeBankCard(java.lang.String)
+com.hct.zc.utils.Toaster:
+    30:30:public Toaster()
+    71:72:public static void showLong(android.app.Activity,int)
+    91:92:public static void showLong(android.app.Activity,java.lang.String)
+    113:115:public static varargs void showLong(android.app.Activity,java.lang.String,java.lang.Object[])
+    126:128:public static varargs void showShort(android.app.Activity,java.lang.String,java.lang.Object[])
+    139:144:public static varargs void showLong(android.app.Activity,int,java.lang.Object[])
+    155:160:public static varargs void showShort(android.app.Activity,int,java.lang.Object[])
+com.hct.zc.utils.ZCUtils:
+    21:21:public ZCUtils()
+com.hct.zc.utils.imagecache.ImageCacheManager:
+    90:92:public void clearCache()
+    113:114:public void clearFileCache()
+com.hct.zc.utils.imagecache.ImageFileCache:
+    86:87:public void clearCache()
+com.hct.zc.utils.imagecache.ImageGetFromHttp:
+    178:186:public byte[] getBytesFromInputStream(java.io.InputStream)
+com.hct.zc.widget.BaseDialog
+com.hct.zc.widget.CountBackwordsCB:
+    private com.hct.zc.utils.PreferenceUtil mUtil
+    private java.util.Timer mTimer
+    36:38:public CountBackwordsCB(android.content.Context)
+com.hct.zc.widget.CstEditText:
+    65:67:public void setInitName(java.lang.String,java.lang.String)
+com.hct.zc.widget.DealRecordAxisView:
+    private boolean mHasChoosenContractAddr
+    414:426:private void refreshUploadIdPicUi()
+    563:574:public void setRemitSlipPics(java.lang.String,java.lang.String,java.lang.String)
+    832:832:public boolean ismHasChoosenContractAddr()
+    852:852:public boolean ismUploadedIdPic()
+    856:856:public boolean ismUploadedRemitSlip()
+    860:860:public boolean isChoosedAddr()
+    872:872:public boolean ismChoosedAddr()
+com.hct.zc.widget.LockPatternView:
+    static final int STATUS_BAR_HEIGHT
+    304:304:public boolean isInStealthMode()
+    311:311:public boolean isTactileFeedbackEnabled()
+com.hct.zc.widget.LockPatternView$SavedState:
+    1196:1202:private LockPatternView$SavedState(android.os.Parcel)
+com.hct.zc.widget.ScrollerCustomDuration:
+    12:13:public ScrollerCustomDuration(android.content.Context)
+com.hct.zc.widget.TitleBar:
+    26:28:public TitleBar(com.hct.zc.fragment.BaseFragment)
+    41:48:public void initBackTitleMenuBar(android.view.View,java.lang.String)
+com.hct.zc.widget.XListViewFooter:
+    73:75:public void normal()
+    81:83:public void loading()
+com.hct.zc.widget.ZCDialog:
+    23:24:public ZCDialog(android.content.Context,int,int)
+    33:34:public com.hct.zc.widget.ZCDialog setAnimation(boolean)
+    42:53:public void createDialog(android.view.View)
+    56:67:public void createDialog(int)
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$1
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$2
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$3
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$4
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$5
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$6
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove:
+    304:307:public void addIgnoredView(android.view.View)
+    310:311:public void removeIgnoredView(android.view.View)
+    314:315:public void clearIgnoredViews()
+    376:382:public int getChildWidth(int)
+    387:387:public boolean isSlidingEnabled()
+    403:404:void smoothScrollTo(int,int)
+    969:990:protected boolean canScroll(android.view.View,boolean,int,int,int)
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$SimpleOnPageChangeListener:
+    160:160:public void onPageScrollStateChanged(int)
+com.jeremyfeinstein.slidingmenu.lib.MenuInterface
+com.jeremyfeinstein.slidingmenu.lib.R:
+    9:9:public R()
+com.jeremyfeinstein.slidingmenu.lib.R$attr
+com.jeremyfeinstein.slidingmenu.lib.R$id:
+    26:26:public R$id()
+com.jeremyfeinstein.slidingmenu.lib.R$layout:
+    34:34:public R$layout()
+com.jeremyfeinstein.slidingmenu.lib.R$styleable:
+    37:37:public R$styleable()
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu:
+    487:487:public boolean isSlidingEnabled()
+    538:539:public void showMenu()
+    556:557:public void showSecondaryMenu()
+    953:954:public void addIgnoredView(android.view.View)
+    963:964:public void removeIgnoredView(android.view.View)
+    971:972:public void clearIgnoredViews()
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityBase
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityHelper:
+    150:152:public void setContentView(android.view.View)
+    193:194:public void showMenu()
+    201:202:public void showSecondaryMenu()
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity:
+    163:164:public void showContent()
+    174:175:public void showMenu()
+    186:187:public void showSecondaryMenu()
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingListActivity
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingPreferenceActivity
+com.sina.sso.RemoteSSO$Stub:
+    static final int TRANSACTION_getPackageName
+    static final int TRANSACTION_getActivityName
+    13:16:public RemoteSSO$Stub()
+    34:34:public android.os.IBinder asBinder()
+com.sina.sso.RemoteSSO$Stub$Proxy:
+    77:77:public java.lang.String getInterfaceDescriptor()
+com.tencent.a.a.c:
+    60:61:public static final void c(java.lang.String,java.lang.String)
+com.tencent.a.b.a:
+    70:70:public a()
+com.tencent.a.b.b:
+    16:22:public b()
+com.tencent.a.b.c:
+    18:18:public c()
+com.tencent.a.c.a:
+    16:16:public a()
+com.tencent.a.c.b:
+    16:16:public b()
+com.tencent.a.c.c:
+    14:22:public c()
+com.tencent.a.c.c$a:
+    22:22:public c$a()
+com.tencent.b.a.a.a
+com.tencent.b.a.a.b
+com.tencent.b.a.a.c
+com.tencent.b.a.a.d
+com.tencent.b.b.a
+com.tencent.b.b.a$1
+com.tencent.b.b.b
+com.tencent.b.b.b$a
+com.tencent.b.b.b$b
+com.tencent.b.b.c
+com.tencent.b.b.c$a
+com.tencent.b.b.c$b
+com.tencent.b.b.d
+com.tencent.b.b.d$a
+com.tencent.b.b.e
+com.tencent.b.b.e$a
+com.tencent.b.b.e$b
+com.tencent.b.b.e$c
+com.tencent.b.b.f
+com.tencent.b.b.f$a
+com.tencent.b.b.f$b
+com.tencent.b.b.f$c
+com.tencent.b.b.g
+com.tencent.b.b.h
+com.tencent.b.b.i
+com.tencent.b.b.j
+com.tencent.b.b.k
+com.tencent.b.b.l
+com.tencent.b.b.m
+com.tencent.b.b.m$a
+com.tencent.b.b.m$b
+com.tencent.b.b.m$c
+com.tencent.b.b.n
+com.tencent.b.b.n$a
+com.tencent.b.b.n$b
+com.tencent.b.b.n$c
+com.tencent.b.b.o
+com.tencent.b.b.p
+com.tencent.b.b.q
+com.tencent.b.b.r
+com.tencent.b.b.s
+com.tencent.b.b.t
+com.tencent.b.b.u
+com.tencent.b.b.v
+com.tencent.connect.UserInfo
+com.tencent.connect.a.a:
+    20:20:public a()
+com.tencent.connect.auth.AuthConstants
+com.tencent.connect.auth.AuthDialog:
+    52:52:static synthetic android.os.Handler f(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog$JsListener:
+    501:502:public void onCancelLogin()
+    511:513:public void onCancel(java.lang.String)
+    517:518:public void showMsg(java.lang.String)
+    522:523:public void onLoad(java.lang.String)
+com.tencent.connect.auth.QQAuth:
+    130:145:public int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+    180:189:public void logout(android.content.Context)
+    263:266:public boolean onActivityResult(int,int,android.content.Intent)
+com.tencent.connect.auth.QQToken:
+    27:28:public void setAppId(java.lang.String)
+    53:53:public int getAuthSource()
+    57:58:public void setAuthSource(int)
+    61:61:public long getExpireTimeInSecond()
+com.tencent.connect.avatar.ImageActivity
+com.tencent.connect.avatar.ImageActivity$1
+com.tencent.connect.avatar.ImageActivity$2
+com.tencent.connect.avatar.ImageActivity$QQAvatarImp
+com.tencent.connect.avatar.ImageActivity$a
+com.tencent.connect.avatar.QQAvatar
+com.tencent.connect.avatar.a
+com.tencent.connect.avatar.a$1
+com.tencent.connect.avatar.b:
+    private float j
+    private float k
+    51:54:public b(android.content.Context)
+    102:106:public void a(android.graphics.Rect)
+    294:320:private void c()
+com.tencent.connect.avatar.c
+com.tencent.connect.avatar.d
+com.tencent.connect.avatar.d$1
+com.tencent.connect.avatar.e
+com.tencent.connect.avatar.f
+com.tencent.connect.avatar.g:
+    17:19:public g(android.content.Context)
+com.tencent.connect.common.AssistActivity:
+    13:14:public static android.content.Intent getAssistActivityIntent(android.content.Context)
+com.tencent.connect.common.BaseApi:
+    276:276:protected android.content.Intent getAgentIntent()
+    281:298:protected android.content.Intent getAgentIntentWithTarget(java.lang.String)
+com.tencent.connect.common.BaseApi$TempRequestListener
+com.tencent.connect.common.BaseApi$TempRequestListener$1
+com.tencent.connect.common.Constants:
+    11:11:public Constants()
+com.tencent.connect.dataprovider.CallbackManager
+com.tencent.connect.dataprovider.Constants
+com.tencent.connect.dataprovider.DataType:
+    6:55:public DataType()
+com.tencent.connect.dataprovider.DataType$TextAndMediaPath:
+    15:18:public DataType$TextAndMediaPath(java.lang.String,java.lang.String)
+    21:21:public java.lang.String getText()
+    25:25:public java.lang.String getMediaPath()
+com.tencent.connect.dataprovider.DataType$TextOnly:
+    58:60:public DataType$TextOnly(java.lang.String)
+    63:63:public java.lang.String getText()
+com.tencent.connect.dataprovider.ErrorCode
+com.tencent.connect.share.a:
+    31:31:public a()
+com.tencent.mm.BuildConfig
+com.tencent.mm.algorithm.Base64
+com.tencent.mm.algorithm.LRUMap
+com.tencent.mm.algorithm.LRUMap$1
+com.tencent.mm.algorithm.LRUMap$OnClearListener
+com.tencent.mm.algorithm.LRUMap$PreRemoveCallback
+com.tencent.mm.algorithm.LRUMap$TimeVal
+com.tencent.mm.algorithm.MD5:
+    private MD5()
+    public static final byte[] getRawDigest(byte[])
+    public static final java.lang.String getMD5(java.io.FileInputStream,int,int,int)
+    public static final java.lang.String getMD5(java.io.FileInputStream,int)
+    public static java.lang.String getMD5(java.lang.String)
+    public static java.lang.String getMD5(java.io.File)
+    public static java.lang.String getMD5(java.io.File,int)
+    public static java.lang.String getMD5(java.lang.String,int,int)
+    public static java.lang.String getMD5(java.io.File,int,int)
+com.tencent.mm.algorithm.TypeTransform:
+    private TypeTransform()
+    private static byte[] a(byte[])
+    public static byte[] longToByteArrayLH(long)
+    public static byte[] intToByteArrayHL(int)
+    public static byte[] longToByteArrayHL(long)
+    public static int byteArrayLHToInt(byte[])
+    public static int byteArrayLHToInt(byte[],int)
+    public static long byteArrayLHToLong(byte[])
+    public static long byteArrayLHToLong(byte[],int)
+    public static int byteArrayHLToInt(byte[])
+    public static int byteArrayHLToInt(byte[],int)
+    public static long byteArrayHLToLong(byte[],int)
+    public static long byteArrayHLToLong(byte[])
+com.tencent.mm.algorithm.UIN
+com.tencent.mm.platformtools.CnToSpell
+com.tencent.mm.platformtools.SpellMap
+com.tencent.mm.sdk.Build
+com.tencent.mm.sdk.ConstantsUI
+com.tencent.mm.sdk.ConstantsUI$Contact
+com.tencent.mm.sdk.MMAppMgr
+com.tencent.mm.sdk.channel.ConstantsMMessage
+com.tencent.mm.sdk.channel.MMessage:
+    public MMessage()
+    public static void send(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.mm.sdk.channel.MMessage$CallBack
+com.tencent.mm.sdk.channel.MMessage$Receiver
+com.tencent.mm.sdk.channel.MMessageAct:
+    public MMessageAct()
+    public static boolean send(android.content.Context,java.lang.String,java.lang.String)
+    public static boolean send(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle)
+    public static boolean sendToWx(android.content.Context,java.lang.String)
+com.tencent.mm.sdk.channel.MMessageUtil:
+    private MMessageUtil()
+com.tencent.mm.sdk.channel.package-info
+com.tencent.mm.sdk.event.EventPoolFactory
+com.tencent.mm.sdk.event.EventPoolFactory$IEventPool
+com.tencent.mm.sdk.event.IEvent
+com.tencent.mm.sdk.event.IListener
+com.tencent.mm.sdk.openapi.BaseResp:
+    public abstract int getType()
+    public void toBundle(android.os.Bundle)
+    abstract boolean checkArgs()
+com.tencent.mm.sdk.openapi.BaseResp$ErrCode
+com.tencent.mm.sdk.openapi.ConstantsAPI
+com.tencent.mm.sdk.openapi.GetMessageFromWX:
+    private GetMessageFromWX()
+com.tencent.mm.sdk.openapi.GetMessageFromWX$Req:
+    public java.lang.String username
+com.tencent.mm.sdk.openapi.GetMessageFromWX$Resp
+com.tencent.mm.sdk.openapi.IWXAPI:
+    public abstract void unregisterApp()
+    public abstract int getWXAppSupportAPI()
+    public abstract boolean openWXApp()
+    public abstract boolean sendResp(com.tencent.mm.sdk.openapi.BaseResp)
+com.tencent.mm.sdk.openapi.SendAuth:
+    private SendAuth()
+com.tencent.mm.sdk.openapi.SendAuth$Req
+com.tencent.mm.sdk.openapi.SendAuth$Resp:
+    public java.lang.String resultUrl
+    public int getType()
+    public void toBundle(android.os.Bundle)
+    final boolean checkArgs()
+com.tencent.mm.sdk.openapi.SendMessageToWX:
+    private SendMessageToWX()
+com.tencent.mm.sdk.openapi.SendMessageToWX$Req:
+    public SendMessageToWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.openapi.SendMessageToWX$Resp:
+    public int getType()
+    public void toBundle(android.os.Bundle)
+    final boolean checkArgs()
+com.tencent.mm.sdk.openapi.ShowMessageFromWX:
+    private ShowMessageFromWX()
+com.tencent.mm.sdk.openapi.ShowMessageFromWX$Resp
+com.tencent.mm.sdk.openapi.WXAPIFactory:
+    public static com.tencent.mm.sdk.openapi.IWXAPI createWXAPI(android.content.Context,java.lang.String,boolean)
+com.tencent.mm.sdk.openapi.WXApiImplV10:
+    public final void unregisterApp()
+    public final boolean openWXApp()
+    public final boolean sendResp(com.tencent.mm.sdk.openapi.BaseResp)
+com.tencent.mm.sdk.openapi.WXAppLaunchData
+com.tencent.mm.sdk.openapi.WXAppLaunchData$Builder
+com.tencent.mm.sdk.openapi.WXMediaMessage$Builder:
+    public WXMediaMessage$Builder()
+com.tencent.mm.sdk.openapi.package-info
+com.tencent.mm.sdk.package-info
+com.tencent.mm.sdk.platformtools.AnimationHelperImpl21below
+com.tencent.mm.sdk.platformtools.AnimationHelperImpl22
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$AnimationHelper
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$AnimationHelper$IHelper
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$BitmapFactory
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$ExifHelper
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$SmoothScrollFactory
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$SmoothScrollFactory$IScroll
+com.tencent.mm.sdk.platformtools.BluetoothUtil
+com.tencent.mm.sdk.platformtools.ChannelUtil
+com.tencent.mm.sdk.platformtools.CharSequences
+com.tencent.mm.sdk.platformtools.CharSequences$1
+com.tencent.mm.sdk.platformtools.CharSequences$2
+com.tencent.mm.sdk.platformtools.FilePathGenerator
+com.tencent.mm.sdk.platformtools.FilePathGenerator$DIR_HASH_TYPE
+com.tencent.mm.sdk.platformtools.FilesCopy
+com.tencent.mm.sdk.platformtools.InetUtil
+com.tencent.mm.sdk.platformtools.JpegTools
+com.tencent.mm.sdk.platformtools.KVConfig
+com.tencent.mm.sdk.platformtools.LBSManager
+com.tencent.mm.sdk.platformtools.LBSManager$1
+com.tencent.mm.sdk.platformtools.LBSManager$LocationCache
+com.tencent.mm.sdk.platformtools.LBSManager$OnLocationGotListener
+com.tencent.mm.sdk.platformtools.LVBuffer
+com.tencent.mm.sdk.platformtools.LocaleUtil
+com.tencent.mm.sdk.platformtools.Log:
+    protected Log()
+    public static void setOutputPath(java.lang.String,java.lang.String,java.lang.String,int)
+    public static void setOutputStream(java.io.InputStream,java.io.OutputStream,java.lang.String,java.lang.String,int)
+    public static void reset()
+    public static void setLevel(int,boolean)
+    public static int getLevel()
+    public static void f(java.lang.String,java.lang.String)
+    public static void w(java.lang.String,java.lang.String)
+    public static void i(java.lang.String,java.lang.String)
+    public static void v(java.lang.String,java.lang.String)
+    public static varargs void f(java.lang.String,java.lang.String,java.lang.Object[])
+    public static varargs void w(java.lang.String,java.lang.String,java.lang.Object[])
+    public static varargs void i(java.lang.String,java.lang.String,java.lang.Object[])
+    public static varargs void v(java.lang.String,java.lang.String,java.lang.Object[])
+    public static java.lang.String getSysInfo()
+com.tencent.mm.sdk.platformtools.Log$1
+com.tencent.mm.sdk.platformtools.LogHelper:
+    private LogHelper()
+    public static void initLogHeader(java.io.PrintStream,java.lang.String,java.lang.String,long,int)
+com.tencent.mm.sdk.platformtools.MAlarmHandler
+com.tencent.mm.sdk.platformtools.MAlarmHandler$CallBack
+com.tencent.mm.sdk.platformtools.MAlarmHandler$IBumper
+com.tencent.mm.sdk.platformtools.MBuf
+com.tencent.mm.sdk.platformtools.MMApplicationContext
+com.tencent.mm.sdk.platformtools.MMEntryLock
+com.tencent.mm.sdk.platformtools.MMHandlerThread
+com.tencent.mm.sdk.platformtools.MMHandlerThread$1
+com.tencent.mm.sdk.platformtools.MMHandlerThread$2
+com.tencent.mm.sdk.platformtools.MMHandlerThread$3
+com.tencent.mm.sdk.platformtools.MMHandlerThread$3$1
+com.tencent.mm.sdk.platformtools.MMHandlerThread$IWaitWorkThread
+com.tencent.mm.sdk.platformtools.MMHandlerThread$ResetCallback
+com.tencent.mm.sdk.platformtools.MTimerHandler
+com.tencent.mm.sdk.platformtools.MTimerHandler$CallBack
+com.tencent.mm.sdk.platformtools.NetStatusUtil
+com.tencent.mm.sdk.platformtools.ObserverPool
+com.tencent.mm.sdk.platformtools.ObserverPool$1
+com.tencent.mm.sdk.platformtools.ObserverPool$2
+com.tencent.mm.sdk.platformtools.ObserverPool$Event
+com.tencent.mm.sdk.platformtools.ObserverPool$Listener
+com.tencent.mm.sdk.platformtools.PhoneStatusWatcher
+com.tencent.mm.sdk.platformtools.PhoneStatusWatcher$1
+com.tencent.mm.sdk.platformtools.PhoneStatusWatcher$PhoneCallListener
+com.tencent.mm.sdk.platformtools.PhoneUtil
+com.tencent.mm.sdk.platformtools.PhoneUtil$CellInfo
+com.tencent.mm.sdk.platformtools.PhoneUtil$MacInfo
+com.tencent.mm.sdk.platformtools.PhoneUtil16Impl
+com.tencent.mm.sdk.platformtools.PhoneUtil16Impl$1
+com.tencent.mm.sdk.platformtools.PhoneUtil20Impl
+com.tencent.mm.sdk.platformtools.PhoneUtil20Impl$1
+com.tencent.mm.sdk.platformtools.QueueWorkerThread
+com.tencent.mm.sdk.platformtools.QueueWorkerThread$1
+com.tencent.mm.sdk.platformtools.QueueWorkerThread$ThreadObject
+com.tencent.mm.sdk.platformtools.QueueWorkerThread$WorkerThread
+com.tencent.mm.sdk.platformtools.SemiXml
+com.tencent.mm.sdk.platformtools.SensorController
+com.tencent.mm.sdk.platformtools.SensorController$SensorEventCallBack
+com.tencent.mm.sdk.platformtools.SmoothScrollToPosition21below
+com.tencent.mm.sdk.platformtools.SmoothScrollToPosition22
+com.tencent.mm.sdk.platformtools.SpecilApiUtil
+com.tencent.mm.sdk.platformtools.SyncTask
+com.tencent.mm.sdk.platformtools.SyncTask$1
+com.tencent.mm.sdk.platformtools.SystemProperty
+com.tencent.mm.sdk.platformtools.TimeLogger
+com.tencent.mm.sdk.platformtools.TrafficStats
+com.tencent.mm.sdk.platformtools.Util:
+    private Util()
+    public static java.lang.String escapeSqlValue(java.lang.String)
+    public static java.lang.String listToString(java.util.List,java.lang.String)
+    public static boolean isSDCardAvail()
+    public static java.util.List stringsToList(java.lang.String[])
+    public static int getIntRandom(int,int)
+    public static byte[] getUuidRandom()
+    public static boolean isDayTimeNow()
+    public static boolean isNightTime(int,int,int)
+    public static java.lang.String getTimeZoneOffset()
+    public static java.lang.String getTimeZone()
+    public static java.lang.String getTimeZoneDef()
+    public static java.lang.String formatUnixTime(long)
+    public static boolean isChinese(char)
+    public static boolean isAlpha(char)
+    public static boolean isNum(char)
+    public static boolean isValidQQNum(java.lang.String)
+    public static boolean isValidEmail(java.lang.String)
+    public static byte[] bmpToByteArray(android.graphics.Bitmap,boolean)
+    public static boolean isValidAccount(java.lang.String)
+    public static boolean isValidPassword(java.lang.String)
+    public static android.graphics.BitmapFactory$Options getImageOptions(java.lang.String)
+    public static void saveBitmapToImage(android.graphics.Bitmap,int,android.graphics.Bitmap$CompressFormat,java.lang.String,java.lang.String,boolean)
+    public static void saveBitmapToImage(android.graphics.Bitmap,int,android.graphics.Bitmap$CompressFormat,java.lang.String,boolean)
+    public static android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,boolean,float)
+    public static java.lang.String getSizeKB(long)
+    public static java.lang.String getSizeMB(long)
+    public static java.lang.String dumpArray(java.lang.Object[])
+    public static java.lang.String dumpHex(byte[])
+    public static android.content.Intent getInstallPackIntent(java.lang.String,android.content.Context)
+    public static void installPack(java.lang.String,android.content.Context)
+    public static void shake(android.content.Context,boolean)
+    public static android.media.MediaPlayer playSound(android.content.Context,int,boolean,android.media.MediaPlayer$OnCompletionListener)
+    public static android.media.MediaPlayer playSound(android.content.Context,int,android.media.MediaPlayer$OnCompletionListener)
+    public static void playSound(android.content.Context,int)
+    public static long nowSecond()
+    public static java.lang.String formatSecToMin(int)
+    public static long nowMilliSecond()
+    public static long secondsToNow(long)
+    public static long secondsToMilliSeconds(int)
+    public static long milliSecondsToNow(long)
+    public static long ticksToNow(long)
+    public static long currentTicks()
+    public static long currentDayInMills()
+    public static long currentWeekInMills()
+    public static long currentMonthInMills()
+    public static long currentYearInMills()
+    public static int getSystemVersion(android.content.Context,int)
+    public static java.lang.String getDeviceId(android.content.Context)
+    public static java.lang.String getLine1Number(android.content.Context)
+    public static boolean isLockScreen(android.content.Context)
+    public static boolean isTopActivity(android.content.Context)
+    public static boolean isServiceRunning(android.content.Context,java.lang.String)
+    public static boolean isProcessRunning(android.content.Context,java.lang.String)
+    public static java.lang.String getTopActivityName(android.content.Context)
+    public static boolean isTopApplication(android.content.Context)
+    public static boolean isIntentAvailable(android.content.Context,android.content.Intent)
+    public static void freeBitmapMap(java.util.Map)
+    public static void selectPicture(android.content.Context,int)
+    public static int nullAsNil(java.lang.Integer)
+    public static long nullAsNil(java.lang.Long)
+    public static java.lang.String nullAsNil(java.lang.String)
+    public static boolean nullAsTrue(java.lang.Boolean)
+    public static boolean nullAsFalse(java.lang.Boolean)
+    public static int nullAs(java.lang.Integer,int)
+    public static long nullAs(java.lang.Long,long)
+    public static boolean nullAs(java.lang.Boolean,boolean)
+    public static java.lang.String nullAs(java.lang.String,java.lang.String)
+    public static int nullAsInt(java.lang.Object,int)
+    public static int getSeconds(java.lang.String,int)
+    public static int getInt(java.lang.String,int)
+    public static long getLong(java.lang.String,long)
+    public static int getHex(java.lang.String,int)
+    public static void writeToFile(java.lang.String,java.lang.String)
+    public static java.util.Map parseXml(java.lang.String,java.lang.String,java.lang.String)
+    private static void a(java.util.Map,java.lang.String,org.w3c.dom.Node,int)
+    public static void transClickToSelect(android.view.View,android.view.View)
+    public static java.lang.String getCutPasswordMD5(java.lang.String)
+    public static java.lang.String getFullPasswordMD5(java.lang.String)
+    public static org.w3c.dom.Element getRootElementFromXML(byte[])
+    public static java.lang.String convertStreamToString(java.io.InputStream)
+    public static java.lang.String encodeHexString(byte[])
+    public static byte[] decodeHexString(java.lang.String)
+    public static int guessHttpSendLength(int)
+    public static int guessHttpRecvLength(int)
+    public static int guessHttpContinueRecvLength(int)
+    public static int guessTcpConnectLength()
+    public static int guessTcpDisconnectLength()
+    public static int guessTcpSendLength(int)
+    public static int guessTcpRecvLength(int)
+    public static int[] splitToIntArray(java.lang.String)
+    public static int UnZipFolder(java.lang.String,java.lang.String)
+    public static java.lang.String getStack()
+    public static boolean checkSDCardFull()
+    public static boolean isSDCardHaveEnoughSpace(long)
+    public static java.lang.String GetHostIp()
+    public static boolean checkPermission(android.content.Context,java.lang.String)
+    public static boolean jump(android.content.Context,java.lang.String)
+    public static java.lang.String escapeStringForXml(java.lang.String)
+    public static java.lang.String processXml(java.lang.String)
+    public static java.lang.String expandEntities(java.lang.String)
+    private static int a(char[],int,int)
+    public static boolean isImgFile(java.lang.String)
+    public static java.lang.String mapToXml(java.lang.String,java.util.LinkedHashMap)
+    public static java.util.Map parseIni(java.lang.String)
+    public static boolean deleteFile(java.lang.String)
+    public static void deleteOutOfDateFile(java.lang.String,java.lang.String,long)
+    public static byte[] readFromFile(java.lang.String)
+    public static boolean writeToFile(java.lang.String,byte[])
+com.tencent.mm.sdk.platformtools.Util$1
+com.tencent.mm.sdk.platformtools.Util$2
+com.tencent.mm.sdk.platformtools.package-info
+com.tencent.mm.sdk.plugin.BaseProfile
+com.tencent.mm.sdk.plugin.IMMPluginAPI
+com.tencent.mm.sdk.plugin.MMPluginAPIImpl
+com.tencent.mm.sdk.plugin.MMPluginMsg
+com.tencent.mm.sdk.plugin.MMPluginMsg$ReceiverHelper
+com.tencent.mm.sdk.plugin.MMPluginOAuth
+com.tencent.mm.sdk.plugin.MMPluginOAuth$1
+com.tencent.mm.sdk.plugin.MMPluginOAuth$IResult
+com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver
+com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver$1
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants:
+    public MMPluginProviderConstants()
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$OAuth
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$PluginDB
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$PluginIntent
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$Resolver:
+    private MMPluginProviderConstants$Resolver()
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$SharedPref:
+    private MMPluginProviderConstants$SharedPref()
+com.tencent.mm.sdk.plugin.MMPluginUtil
+com.tencent.mm.sdk.plugin.Profile
+com.tencent.mm.sdk.plugin.package-info
+com.tencent.mm.sdk.storage.ContentProviderDB
+com.tencent.mm.sdk.storage.CursorFieldHelper
+com.tencent.mm.sdk.storage.CursorFieldHelper$1
+com.tencent.mm.sdk.storage.CursorFieldHelper$10
+com.tencent.mm.sdk.storage.CursorFieldHelper$11
+com.tencent.mm.sdk.storage.CursorFieldHelper$12
+com.tencent.mm.sdk.storage.CursorFieldHelper$13
+com.tencent.mm.sdk.storage.CursorFieldHelper$14
+com.tencent.mm.sdk.storage.CursorFieldHelper$15
+com.tencent.mm.sdk.storage.CursorFieldHelper$16
+com.tencent.mm.sdk.storage.CursorFieldHelper$17
+com.tencent.mm.sdk.storage.CursorFieldHelper$18
+com.tencent.mm.sdk.storage.CursorFieldHelper$19
+com.tencent.mm.sdk.storage.CursorFieldHelper$2
+com.tencent.mm.sdk.storage.CursorFieldHelper$20
+com.tencent.mm.sdk.storage.CursorFieldHelper$21
+com.tencent.mm.sdk.storage.CursorFieldHelper$22
+com.tencent.mm.sdk.storage.CursorFieldHelper$23
+com.tencent.mm.sdk.storage.CursorFieldHelper$24
+com.tencent.mm.sdk.storage.CursorFieldHelper$25
+com.tencent.mm.sdk.storage.CursorFieldHelper$26
+com.tencent.mm.sdk.storage.CursorFieldHelper$27
+com.tencent.mm.sdk.storage.CursorFieldHelper$28
+com.tencent.mm.sdk.storage.CursorFieldHelper$3
+com.tencent.mm.sdk.storage.CursorFieldHelper$4
+com.tencent.mm.sdk.storage.CursorFieldHelper$5
+com.tencent.mm.sdk.storage.CursorFieldHelper$6
+com.tencent.mm.sdk.storage.CursorFieldHelper$7
+com.tencent.mm.sdk.storage.CursorFieldHelper$8
+com.tencent.mm.sdk.storage.CursorFieldHelper$9
+com.tencent.mm.sdk.storage.CursorFieldHelper$IGetMethod
+com.tencent.mm.sdk.storage.CursorFieldHelper$ISetMethod
+com.tencent.mm.sdk.storage.IAutoDBItem
+com.tencent.mm.sdk.storage.IAutoDBItem$MAutoDBInfo
+com.tencent.mm.sdk.storage.ISQLiteDatabase
+com.tencent.mm.sdk.storage.MAutoDBFieldAnnotation
+com.tencent.mm.sdk.storage.MAutoDBItem
+com.tencent.mm.sdk.storage.MAutoStorage
+com.tencent.mm.sdk.storage.MDBItem
+com.tencent.mm.sdk.storage.MStorage
+com.tencent.mm.sdk.storage.MStorage$1
+com.tencent.mm.sdk.storage.MStorage$2
+com.tencent.mm.sdk.storage.MStorage$IOnStorageChange
+com.tencent.mm.sdk.storage.MStorage$IOnStorageLoaded
+com.tencent.mm.sdk.storage.MStorageEvent
+com.tencent.mm.sdk.storage.MStorageEvent$1
+com.tencent.mm.sdk.storage.package-info
+com.tencent.open.SocialApi
+com.tencent.open.SocialApiIml
+com.tencent.open.SocialApiIml$1
+com.tencent.open.SocialApiIml$a
+com.tencent.open.SocialApiIml$b
+com.tencent.open.SocialApiIml$c
+com.tencent.open.SocialConstants
+com.tencent.open.TDialog:
+    private com.tencent.tauth.IUiListener h
+    private com.tencent.connect.auth.QQToken o
+    203:210:public TDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken)
+com.tencent.open.TaskGuide
+com.tencent.open.TaskGuide$1
+com.tencent.open.TaskGuide$2
+com.tencent.open.TaskGuide$3
+com.tencent.open.TaskGuide$4
+com.tencent.open.TaskGuide$a
+com.tencent.open.TaskGuide$a$1
+com.tencent.open.TaskGuide$b
+com.tencent.open.TaskGuide$c
+com.tencent.open.TaskGuide$c$1
+com.tencent.open.TaskGuide$d
+com.tencent.open.TaskGuide$e
+com.tencent.open.TaskGuide$f
+com.tencent.open.TaskGuide$g
+com.tencent.open.TaskGuide$h
+com.tencent.open.TaskGuide$i
+com.tencent.open.TaskGuide$j
+com.tencent.open.TaskGuide$k
+com.tencent.open.a.c:
+    21:21:public c()
+com.tencent.open.b
+com.tencent.open.b$a
+com.tencent.qzone.Albums
+com.tencent.qzone.Albums$AlbumSecurity
+com.tencent.stat.EasyActivity
+com.tencent.stat.EasyListActivity
+com.tencent.stat.MtaSDkException:
+    public MtaSDkException(java.lang.String,java.lang.Throwable)
+    public MtaSDkException(java.lang.Throwable)
+com.tencent.stat.StatAppMonitor
+com.tencent.stat.StatConfig:
+    public StatConfig()
+    public static void setDebugEnable(boolean)
+    public static void setSessionTimoutMillis(int)
+    public static void setMaxBatchReportCount(int)
+    public static void setMaxSendRetryCount(int)
+    public static void setMaxStoreEventCount(int)
+    public static java.lang.String getCustomProperty(java.lang.String)
+    public static java.lang.String getCustomProperty(java.lang.String,java.lang.String)
+    public static void setAppKey(java.lang.String)
+    public static void setQQ(android.content.Context,java.lang.String)
+    public static int getMaxParallelTimmingEvents()
+    public static void setMaxParallelTimmingEvents(int)
+    public static void setMaxSessionStatReportCount(int)
+    public static void setMaxDaySessionNumbers(int)
+    public static void setMaxReportEventLength(int)
+com.tencent.stat.StatService:
+    public StatService()
+    public static void startNewSession(android.content.Context)
+    public static void stopSession()
+    public static void onResume(android.content.Context)
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void onPause(android.content.Context)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void reportException(android.content.Context,java.lang.Throwable)
+    public static void trackCustomKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.stat.StatAppMonitor)
+    public static void commitEvents(android.content.Context,int)
+com.tencent.stat.common.Env:
+    public static void appendEnvAttr(android.content.Context,java.util.Map)
+com.tencent.stat.common.StatCommonHelper:
+    public static java.lang.String getActivityName(android.content.Context)
+com.tencent.stat.common.StatConstants
+com.tencent.stat.common.StatLogger:
+    public int getLogLevel()
+    public void setLogLevel(int)
+    public void setTag(java.lang.String)
+    public void verbose(java.lang.Object)
+    public void v(java.lang.Object)
+com.tencent.stat.event.CustomEvent:
+    public com.tencent.stat.event.CustomEvent$Key getKey()
+    public void setDuration(long)
+    public void setProperties(java.util.Properties)
+com.tencent.stat.event.ErrorEvent:
+    public ErrorEvent(android.content.Context,int,java.lang.String)
+com.tencent.stat.event.MonitorStatEvent
+com.tencent.stat.event.PageView
+com.tencent.t.Weibo
+com.tencent.tauth.LbsAgent
+com.tencent.tauth.LbsAgent$OnGetLocationListener
+com.tencent.tauth.LocationApi
+com.tencent.tauth.LocationApi$1
+com.tencent.tauth.LocationApi$2
+com.tencent.tauth.LocationApi$3
+com.tencent.tauth.LocationApi$BaseRequestListener
+com.tencent.tauth.LocationApi$TaskRequestListener
+com.tencent.tauth.SosoLocationListener
+com.tencent.tauth.Tencent:
+    private com.tencent.tauth.LocationApi mLocationApi
+    151:151:public int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+    165:167:public int ask(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    171:173:public int reactive(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    177:180:public int searchNearby(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    184:187:public int deleteLocation(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    192:194:public int brag(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    199:201:public int challenge(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    206:208:public int gift(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    213:215:public int invite(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    222:224:public int story(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    230:234:public void setAvatar(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    248:252:public void setAvatar(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener,int,int)
+    256:257:public void requestAsync(java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IRequestListener,java.lang.Object)
+    262:262:public org.json.JSONObject request(java.lang.String,android.os.Bundle,java.lang.String)
+    277:279:public void grade(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    284:286:public void voice(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    289:291:public void showTaskGuideWindow(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    370:370:public boolean onActivityResult(int,int,android.content.Intent)
+    382:382:public java.lang.String getAccessToken()
+    386:386:public long getExpiresIn()
+    400:400:public java.lang.String getOpenId()
+    448:449:public boolean isReady()
+    453:453:public com.tencent.connect.auth.QQToken getQQToken()
+    461:473:public boolean isSupportSSOLogin(android.app.Activity)
+com.tencent.utils.DataConvert
+com.tencent.utils.HttpUtils:
+    158:159:private HttpUtils()
+    873:999:public static org.json.JSONObject upload(com.tencent.connect.auth.QQToken,android.content.Context,java.lang.String,android.os.Bundle)
+com.tencent.utils.OpenConfig:
+    282:284:public double getDouble(java.lang.String)
+    316:318:public java.lang.Object get(java.lang.String)
+com.tencent.utils.ServerSetting:
+    72:73:public void changeServer()
+    118:161:public void setEnvironment(android.content.Context,int)
+com.tencent.utils.SystemUtils:
+    22:22:public SystemUtils()
+    178:185:public static java.lang.String getRealPathFromUri(android.app.Activity,android.net.Uri)
+    210:237:public static boolean checkMobileQQ(android.content.Context)
+com.tencent.utils.TemporaryStorage:
+    13:13:public TemporaryStorage()
+com.tencent.utils.Util:
+    80:100:public static java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+    259:358:public static com.tencent.utils.Util$Statistic upload(android.content.Context,java.lang.String,android.os.Bundle)
+    371:389:private static java.lang.String a(org.apache.http.HttpResponse)
+    468:472:public static void showAlert(android.content.Context,java.lang.String,java.lang.String)
+    776:784:public static java.lang.String toHexString(java.lang.String)
+    790:815:public static java.lang.String hexToString(java.lang.String)
+    825:832:public static java.lang.String getAppVersion(android.content.Context)
+com.tencent.utils.Util$TBufferedOutputStream
+com.tencent.weibo.sdk.android.api.BaseAPI
+com.tencent.weibo.sdk.android.api.BaseAPI$1
+com.tencent.weibo.sdk.android.api.FriendAPI
+com.tencent.weibo.sdk.android.api.LbsAPI
+com.tencent.weibo.sdk.android.api.PublishWeiBoAPI
+com.tencent.weibo.sdk.android.api.TimeLineAPI
+com.tencent.weibo.sdk.android.api.UserAPI
+com.tencent.weibo.sdk.android.api.WeiboAPI
+com.tencent.weibo.sdk.android.api.adapter.ConversationAdapter
+com.tencent.weibo.sdk.android.api.adapter.FriendAdapter
+com.tencent.weibo.sdk.android.api.adapter.FriendAdapter$1
+com.tencent.weibo.sdk.android.api.adapter.GalleryAdapter
+com.tencent.weibo.sdk.android.api.adapter.GalleryAdapter$1
+com.tencent.weibo.sdk.android.api.util.BackGroudSeletor
+com.tencent.weibo.sdk.android.api.util.FirendCompare
+com.tencent.weibo.sdk.android.api.util.HypyUtil
+com.tencent.weibo.sdk.android.api.util.ImageLoaderAsync
+com.tencent.weibo.sdk.android.api.util.ImageLoaderAsync$1
+com.tencent.weibo.sdk.android.api.util.ImageLoaderAsync$2
+com.tencent.weibo.sdk.android.api.util.ImageLoaderAsync$callBackImage
+com.tencent.weibo.sdk.android.api.util.JsonUtil
+com.tencent.weibo.sdk.android.api.util.SharePersistent
+com.tencent.weibo.sdk.android.api.util.Util
+com.tencent.weibo.sdk.android.component.Authorize
+com.tencent.weibo.sdk.android.component.Authorize$1
+com.tencent.weibo.sdk.android.component.Authorize$2
+com.tencent.weibo.sdk.android.component.Authorize$3
+com.tencent.weibo.sdk.android.component.Authorize$4
+com.tencent.weibo.sdk.android.component.Authorize$5
+com.tencent.weibo.sdk.android.component.Authorize$6
+com.tencent.weibo.sdk.android.component.ConversationActivity
+com.tencent.weibo.sdk.android.component.ConversationActivity$1
+com.tencent.weibo.sdk.android.component.ConversationActivity$2
+com.tencent.weibo.sdk.android.component.ConversationActivity$3
+com.tencent.weibo.sdk.android.component.ConversationActivity$4
+com.tencent.weibo.sdk.android.component.FriendActivity
+com.tencent.weibo.sdk.android.component.FriendActivity$1
+com.tencent.weibo.sdk.android.component.FriendActivity$2
+com.tencent.weibo.sdk.android.component.FriendActivity$3
+com.tencent.weibo.sdk.android.component.FriendActivity$4
+com.tencent.weibo.sdk.android.component.FriendActivity$5
+com.tencent.weibo.sdk.android.component.FriendActivity$6
+com.tencent.weibo.sdk.android.component.GeneralDataShowActivity
+com.tencent.weibo.sdk.android.component.GeneralInterfaceActivity
+com.tencent.weibo.sdk.android.component.GeneralInterfaceActivity$1
+com.tencent.weibo.sdk.android.component.GeneralInterfaceActivity$2
+com.tencent.weibo.sdk.android.component.LetterListView:
+    36:38:public LetterListView(android.content.Context,java.util.List)
+com.tencent.weibo.sdk.android.component.MainPage_Activity
+com.tencent.weibo.sdk.android.component.MainPage_Activity$1
+com.tencent.weibo.sdk.android.component.MainPage_Activity$2
+com.tencent.weibo.sdk.android.component.MainPage_Activity$3
+com.tencent.weibo.sdk.android.component.MainPage_Activity$4
+com.tencent.weibo.sdk.android.component.MainPage_Activity$5
+com.tencent.weibo.sdk.android.component.PublishActivity
+com.tencent.weibo.sdk.android.component.PublishActivity$1
+com.tencent.weibo.sdk.android.component.PublishActivity$2
+com.tencent.weibo.sdk.android.component.PublishActivity$3
+com.tencent.weibo.sdk.android.component.PublishActivity$4
+com.tencent.weibo.sdk.android.component.PublishActivity$5
+com.tencent.weibo.sdk.android.component.PublishActivity$6
+com.tencent.weibo.sdk.android.component.PublishActivity$7
+com.tencent.weibo.sdk.android.component.PublishActivity$8
+com.tencent.weibo.sdk.android.component.ReAddActivity
+com.tencent.weibo.sdk.android.component.ReAddActivity$1
+com.tencent.weibo.sdk.android.component.ReAddActivity$2
+com.tencent.weibo.sdk.android.component.ReAddActivity$3
+com.tencent.weibo.sdk.android.component.ReAddActivity$4
+com.tencent.weibo.sdk.android.component.ReAddActivity$5
+com.tencent.weibo.sdk.android.component.sso.AuthHelper:
+    static final java.lang.String WEIBO_PACKAGE
+    static final int SUPPORT_WEIBO_MIN_VERSION
+    static final java.lang.String WEIBO_AUTH_URL
+    static final java.lang.String ENCRYPT_KEY
+    static final byte SDK_VERSION
+    static final int WEIBO_VALIDATE_OK
+    static final int ERROR_WEIBO_UPGRADE_NEEDED
+    static final int ERROR_WEIBO_INSTALL_NEEDED
+    29:29:public AuthHelper()
+    79:80:public static final void unregister(android.content.Context)
+com.tencent.weibo.sdk.android.component.sso.AuthReceiver:
+    static final java.lang.String ACTION
+com.tencent.weibo.sdk.android.component.sso.tools.Base64:
+    38:38:public Base64()
+    83:96:public static byte[] decode(java.lang.String)
+    100:112:protected static int getValue(char)
+com.tencent.weibo.sdk.android.component.sso.tools.Cryptor:
+    25:29:public static byte[] MD5Hash(byte[],int)
+    34:57:public static int CRC32Hash(byte[])
+    64:84:public static byte[] _4bytesEncryptAFrame(int,byte[])
+    88:111:public static int _4bytesDecryptAFrame(long,byte[])
+    333:333:public byte[] decrypt(byte[],byte[])
+com.tencent.weibo.sdk.android.component.sso.tools.MD5Tools:
+    static final int S11
+    static final int S12
+    static final int S13
+    static final int S14
+    static final int S21
+    static final int S22
+    static final int S23
+    static final int S24
+    static final int S31
+    static final int S32
+    static final int S33
+    static final int S34
+    static final int S41
+    static final int S42
+    static final int S43
+    static final int S44
+    public java.lang.String digestHexStr
+    92:97:public byte[] getMD5(java.io.InputStream,long)
+    445:446:public static byte[] toMD5Byte(byte[])
+    450:459:public static byte[] toMD5Byte(java.lang.String)
+    463:464:public static byte[] toMD5Byte(java.io.InputStream,long)
+    468:474:public static java.lang.String toMD5(java.io.InputStream,long)
+    478:486:public static java.lang.String toMD5(byte[])
+    517:542:public static java.lang.String getMD5String(byte[])
+    555:593:public static java.lang.String getFileMD5(java.io.File)
+    597:604:public static java.lang.String HEXByte(byte[])
+    609:616:private static byte getByte(byte)
+com.tencent.weibo.sdk.android.model.AccountModel
+com.tencent.weibo.sdk.android.model.BaseVO
+com.tencent.weibo.sdk.android.model.Firend
+com.tencent.weibo.sdk.android.model.ImageInfo
+com.tencent.weibo.sdk.android.model.ModelResult
+com.tencent.weibo.sdk.android.network.HttpCallback
+com.tencent.weibo.sdk.android.network.HttpConfig
+com.tencent.weibo.sdk.android.network.HttpReq
+com.tencent.weibo.sdk.android.network.HttpReq$UTF8PostMethod
+com.tencent.weibo.sdk.android.network.HttpReqWeiBo
+com.tencent.weibo.sdk.android.network.HttpService
+com.tencent.weibo.sdk.android.network.ReqParam
+com.tencent.weibo.sdk.android.network.ReqParam$1
+com.tencent.weiyun.FileManager
+com.tencent.weiyun.FileManager$DownLoadImp
+com.tencent.weiyun.FileManager$DownLoadImp$1
+com.tencent.weiyun.FileManager$DownLoadImp$2
+com.tencent.weiyun.FileManager$DownLoadImp$3
+com.tencent.weiyun.FileManager$GetFileListListener
+com.tencent.weiyun.FileManager$UploadFileImp
+com.tencent.weiyun.FileManager$UploadFileImp$1
+com.tencent.weiyun.FileManager$UploadFileImp$2
+com.tencent.weiyun.FileManager$UploadFileImp$3
+com.tencent.weiyun.FileManager$WeiyunFileType
+com.tencent.weiyun.IDownLoadFileCallBack
+com.tencent.weiyun.IGetFileListListener
+com.tencent.weiyun.IUploadFileCallBack
+com.tencent.weiyun.RecordManager
+com.tencent.weiyun.RecordManager$1
+com.tencent.weiyun.RecordManager$2
+com.tencent.weiyun.RecordManager$3
+com.tencent.weiyun.RecordManager$4
+com.tencent.weiyun.RecordManager$5
+com.tencent.weiyun.RecordManager$6
+com.tencent.weiyun.WeiyunFile
+com.tencent.wpa.WPA
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.MIME:
+    36:36:public MIME()
+org.apache.http.entity.mime.MultipartEntity:
+    93:94:public MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode)
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+org.apache.http.entity.mime.content.FileBody
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody:
+    58:60:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    69:69:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    76:76:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String)
+    126:127:public StringBody(java.lang.String)
+    130:130:public java.io.Reader getReader()
+    140:141:public void writeTo(java.io.OutputStream,int)

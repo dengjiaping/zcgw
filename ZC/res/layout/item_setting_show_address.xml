@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="15dp" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round_white"
+        android:padding="10dp" >
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/text_18_s_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三丰"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/text_18_s_o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_name"
+            android:text="13691680839"
+            android:textColor="@color/color_zc_orange"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_zc_gray_mid"
+            android:textSize="18sp" />
+        <View
+            android:id="@+id/v_split"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv_address"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_devision" />
+        <CheckBox
+            android:id="@+id/ck_default"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/v_split"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/bg_check_default"
+            android:text="设为默认快递地址"
+            android:textColor="@drawable/bg_textcolor"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@id/ck_default"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/iv_edit" />
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@id/ck_default"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/iv_edit"
+            android:src="@drawable/iv_delete" />
+    </RelativeLayout>
+</LinearLayout>

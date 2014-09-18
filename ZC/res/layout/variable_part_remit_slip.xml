@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_weight="1" />
+    <ImageView
+        android:id="@+id/remit_slip_three_iv"
+        android:layout_width="@dimen/deal_record_pic_width"
+        android:layout_height="@dimen/deal_record_pic_width"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/bg_empty_remit"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/remit_slip_two_iv"
+        android:layout_width="@dimen/deal_record_pic_width"
+        android:layout_height="@dimen/deal_record_pic_width"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/bg_empty_remit"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/remit_slip_one_iv"
+        android:layout_width="@dimen/deal_record_pic_width"
+        android:layout_height="@dimen/deal_record_pic_width"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/bg_empty_remit"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/upload_remit_slip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/bg_upload_remit_slip"
+        android:gravity="center_vertical"
+        android:text="上传打款凭条"
+        android:textColor="@color/gray_dark" />
+</LinearLayout>

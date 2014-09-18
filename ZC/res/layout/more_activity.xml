@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="30dp"
+				android:background="@drawable/bg_input_layout"
+				android:orientation="vertical"
+				android:paddingLeft="15dp" >
+				<!-- 系统消息 -->
+				<LinearLayout
+					android:id="@+id/system_msg_llyt"
+					style="@style/PersonalSettingItemLayout" >
+					<TextView
+						style="@style/PersonalInfoIcon"
+						android:text="消息中心" />
+					<TextView
+						android:id="@+id/system_msg_count_tv"
+						style="@style/PersonalInfo" />
+				</LinearLayout>
+				<!-- 意见反馈 -->
+				<LinearLayout
+					android:id="@+id/feedback_llyt"
+					style="@style/PersonalSettingItemLayout" >
+					<TextView
+						style="@style/PersonalInfoIcon"
+						android:text="意见反馈" />
+					<TextView style="@style/PersonalInfo" />
+				</LinearLayout>
+				<!-- 使用指南 -->
+				<LinearLayout
+					android:id="@+id/user_guide_llyt"
+					style="@style/PersonalSettingItemLayout"
+					android:background="@drawable/bg_edit_down" >
+					<TextView
+						style="@style/PersonalInfoIcon"
+						android:text="使用指南" />
+					<TextView style="@style/PersonalInfo" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="30dp"
+				android:background="@drawable/bg_input_layout"
+				android:orientation="vertical"
+				android:paddingLeft="15dp" >
+				<!-- 关于 -->
+				<LinearLayout
+					android:id="@+id/about_llyt"
+					style="@style/PersonalSettingItemLayout" >
+					<TextView
+						style="@style/PersonalInfoIcon"
+						android:text="关于" />
+					<TextView style="@style/PersonalInfo" />
+				</LinearLayout>
+				<!-- 评分 -->
+				<LinearLayout
+					android:id="@+id/score_llyt"
+					style="@style/PersonalSettingItemLayout" >
+					<TextView
+						style="@style/PersonalInfoIcon"
+						android:text="评分" />
+					<TextView style="@style/PersonalInfo" />
+				</LinearLayout>
+				<!-- 版本 -->
+				<LinearLayout
+					android:id="@+id/version_llyt"
+					style="@style/PersonalSettingItemLayout"
+					android:background="@drawable/bg_edit_down" >
+					<TextView
+						style="@style/PersonalInfoIcon"
+						android:text="版本" />
+					<View
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_weight="1" />
+					<TextView
+						android:id="@+id/new_version_mark_tv"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginRight="5dp"
+						android:drawableLeft="@drawable/ic_new_version"
+						android:drawablePadding="5dp"
+						android:gravity="center_vertical"
+						android:text="V2.21"
+						android:textColor="@color/orange_normal" />
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:drawableRight="@drawable/ic_personal_setting_arrow" />
+				</LinearLayout>
+			</LinearLayout>
+			<Button
+				android:id="@+id/logout_btn"
+				style="@style/RedButton"
+				android:layout_marginBottom="25dp"
+				android:layout_marginTop="25dp"
+				android:text="退出登录" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

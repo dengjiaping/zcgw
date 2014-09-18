@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<TextView
+		android:id="@+id/product_title_tv"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/khaki_light"
+		android:paddingBottom="15dp"
+		android:paddingLeft="20dp"
+		android:paddingRight="10dp"
+		android:paddingTop="15dp"
+		android:text="四川信托-万事兴"
+		android:textAppearance="@android:style/TextAppearance.Small"
+		android:textColor="@android:color/black"
+		android:typeface="sans" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bg_input_layout"
+		android:orientation="vertical" >
+		<com.hct.zc.widget.CustomEditText
+			android:id="@+id/name_et"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+		</com.hct.zc.widget.CustomEditText>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_edit_down"
+			android:gravity="center_vertical"
+			android:orientation="horizontal"
+			android:paddingLeft="@dimen/input_et_margin_left" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="7dp"
+				android:text="预约金额(万)：" />
+			<EditText
+				android:id="@+id/reserve_money_et"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="3dp"
+				android:layout_weight="1"
+				android:background="@null"
+				android:hint="金额以10万为倍数"
+				android:inputType="numberDecimal"
+				android:singleLine="true"
+				android:textAppearance="@android:style/TextAppearance.Small" />
+			<TextView
+				android:id="@+id/min_invoice_tv"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="7dp"
+				android:textColor="@color/jiuhong" />
+		</LinearLayout>
+	</LinearLayout><LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal" >
+		<Button
+			android:id="@+id/from_contacts_btn"
+			style="@style/OrangeButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:background="@drawable/btn_orange"
+			android:text="从通讯录导入" />
+		<Button
+			android:id="@+id/from_clients_btn"
+			style="@style/OrangeButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:background="@drawable/btn_orange"
+			android:text="从客户列表导入" />
+	</LinearLayout>
+	<Button
+		android:id="@+id/certain_btn"
+		style="@style/RedButton"
+		android:layout_marginTop="20dp"
+		android:onClick="buttonClick"
+		android:text="@string/certain" />
+</LinearLayout>

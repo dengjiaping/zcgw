@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<include layout="@layout/include_titlebar" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:background="@drawable/bg_input_layout"
+		android:orientation="vertical"
+		android:paddingLeft="25dp" >
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical" >
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:src="@drawable/ic_username" />
+			<EditText
+				android:id="@+id/username_et"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_edit_up"
+				android:hint="@string/please_input_username"
+				android:inputType="phone"
+				android:paddingLeft="25dp"
+				android:singleLine="true" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical" >
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:src="@drawable/ic_password" />
+			<EditText
+				android:id="@+id/password_et"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_edit_down"
+				android:hint="@string/please_input_password"
+				android:inputType="textPassword"
+				android:paddingLeft="25dp"
+				android:singleLine="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:orientation="horizontal"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp" >
+		<CheckBox
+			android:id="@+id/auto_login_cb"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@android:color/transparent"
+			android:button="@null"
+			android:drawableLeft="@drawable/bg_cb"
+			android:drawablePadding="3dp"
+			android:padding="5dp"
+			android:text="自动登录" />
+		<TextView
+			android:id="@+id/forget_password_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/forget_password_suffix"
+			android:textColor="#0F80FF" />
+	</LinearLayout>
+	<Button
+		android:id="@+id/login_btn"
+		style="@style/OrangeButton"
+		android:layout_marginTop="25dp"
+		android:text="@string/login" />
+	<Button
+		android:id="@+id/request_be_advisor_btn"
+		style="@style/RedButton"
+		android:layout_marginTop="10dp"
+		android:text="立即成为理财顾问" />
+</LinearLayout>

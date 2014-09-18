@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_input_layout"
+        android:orientation="vertical" >
+        <com.hct.zc.widget.CustomEditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.hct.zc.widget.CustomEditText>
+        <com.hct.zc.widget.CustomEditText
+            android:id="@+id/phone_num_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.hct.zc.widget.CustomEditText>
+        <com.hct.zc.widget.CustomEditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.hct.zc.widget.CustomEditText>
+        <com.hct.zc.widget.CustomEditText
+            android:id="@+id/remark_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.hct.zc.widget.CustomEditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/from_contacts_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_orange"
+            android:gravity="center"
+            android:onClick="fromContactsClick"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:singleLine="true"
+            android:text="从通讯录导入"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/from_clients_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_orange"
+            android:gravity="center"
+            android:onClick="fromClientsClick"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:singleLine="true"
+            android:text="从客户列表导入"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/certain_btn"
+        style="@style/RedButton"
+        android:layout_marginTop="20dp"
+        android:onClick="buttonClick"
+        android:text="确定" />
+</LinearLayout>

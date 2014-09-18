@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InputLlytTheme" >
+    <TextView
+        android:id="@+id/prompt_tv"
+        style="@style/InputInfoPromptLeft" />
+    <EditText
+        android:id="@+id/content_et"
+        style="@style/InputContent" />
+    <TextView
+        android:id="@+id/hint_tv"
+        style="@style/InputInfoPromptRight" />
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <GridView
+            android:id="@+id/prompt_gv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bg_gesture_prompt"
+            android:columnWidth="13dp"
+            android:horizontalSpacing="6dp"
+            android:scrollbars="none"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:padding="5dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="6dp" >
+        </GridView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/prompt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="请输入手势密码"
+        android:textColor="@android:color/darker_gray" />
+    <com.hct.zc.widget.LockPatternView
+        android:id="@+id/lock_pattern_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/gesture_lock_marging" >
+    </com.hct.zc.widget.LockPatternView>
+</LinearLayout>

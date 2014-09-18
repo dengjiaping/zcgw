@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_round_white"
+    android:padding="20dp"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+              <TextView 
+                  android:id="@+id/tv_dialog_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="新增通讯地址"
+		        style="@style/text_18_s_b_n"
+		        android:textColor="@color/color_zc_red"
+		        android:textSize="20sp"
+				android:layout_gravity="left"/>
+    
+		    <View 
+		        android:layout_marginTop="5dp"
+		        android:layout_width="match_parent"
+		        android:layout_height="2dp"
+		        android:background="@color/color_zc_red"
+		        />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                style="@style/text_18_s_b_n"
+                android:id="@+id/tv_address_city"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_pwd"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:drawableRight="@drawable/iv_drop_select"
+                android:paddingRight="2dp"
+                android:hint="选择地址" />
+            
+            <TextView 
+                style="@style/text_18_s_b_n"
+                android:text="详细地址"
+                android:layout_marginTop="15dp"
+                />
+            
+             <EditText 
+                android:id="@+id/tv_address_detail"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="10dp"
+                android:hint="输入详细地址"
+                android:background="@drawable/bg_pwd"
+                android:gravity="left|top"
+                />
+
+            
+             <TextView 
+                 
+                 android:layout_marginTop="15dp"
+                style="@style/text_18_s_b_n"
+                android:text="收件人信息"/>
+             
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="80dp"
+                 android:paddingLeft="10dp"
+                 android:layout_marginTop="5dp"
+                 android:background="@drawable/bg_pwd"
+                 android:orientation="vertical" >
+
+                 
+                <com.hct.zc.widget.CstEditText
+          	  	    android:id="@+id/et_name"
+         		    android:layout_width="match_parent"
+           		    android:layout_weight="1"
+                    android:layout_height="0dp" />
+                   
+                   
+                    <com.hct.zc.widget.CstEditText
+      				  android:id="@+id/et_phone"
+      				  android:layout_width="match_parent"
+       			      android:layout_weight="1"
+               		  android:layout_height="0dp"/>
+                 
+      
+             </LinearLayout>
+             
+               <CheckBox 
+		        android:id="@+id/ck_default"
+                android:paddingLeft="10dp"
+		        android:layout_marginTop="10dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="  设为默认地址"
+		        android:textSize="18sp"
+		        android:textColor="@drawable/bg_textcolor"
+		        android:button="@drawable/bg_check_default"
+    			 />
+            
+              <LinearLayout 
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="20dp"
+                 android:gravity="center_vertical"
+                 android:orientation="horizontal"
+                 >
+                 <Button 
+                     android:id="@+id/btn_cancel"
+				  	 style="@style/OrangeButton"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:layout_height="wrap_content"
+                     android:text="取消"
+                     />
+                 
+                  <Button 
+                     android:id="@+id/btn_ok"
+				  	 style="@style/RedButton"
+                      android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:layout_height="wrap_content"
+				  	 android:text="确定"
+                     />
+             </LinearLayout>
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <declare-styleable name="LockPatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height" -->
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+       <string-array name="phtot_select">
+           <item name="1">照相</item>
+           <item name="2">选择图片</item>
+       </string-array>
+       
+        <string-array name="bank_select">
+           <item name="1">工商银行</item>
+           <item name="2">农业银行</item>
+           <item name="3">建设银行</item>
+           <item name="4">中国银行</item>
+           <item name="5">招商银行</item>
+           <item name="6">平安银行</item>
+           <item name="7">兴业银行</item>
+           <item name="8">光大银行</item>
+       </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <ImageView 
+        android:id="@+id/iv_nodate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_empty_data"
+        />
+
+    <com.hct.zc.widget.XListView
+        android:id="@+id/xlv_address"
+        android:layout_width="match_parent"
+ 		android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        >
+    </com.hct.zc.widget.XListView>
+
+    <LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:gravity="center"     
+		android:background="@color/gray_white" 
+		android:layout_gravity="bottom"  
+        >
+        <Button 
+            android:id="@+id/btn_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="新增通讯地址"
+            style="@style/btn_orange"
+            />
+    </LinearLayout>
+   
+</LinearLayout>

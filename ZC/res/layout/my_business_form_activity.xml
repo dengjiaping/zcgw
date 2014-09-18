@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/dealing_btn"
+            style="@style/BusinessFormBtn"
+            android:text="进行中" />
+        <include layout="@layout/include_vert_line" />
+        <Button
+            android:id="@+id/dealed_btn"
+            style="@style/BusinessFormBtn"
+            android:text="已结算" />
+        <include layout="@layout/include_vert_line" />
+        <Button
+            android:id="@+id/canceled_btn"
+            style="@style/BusinessFormBtn"
+            android:text="已取消" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:orientation="horizontal" >
+        <View
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/glide_bar_iv"
+            android:layout_width="0.0dip"
+            android:layout_height="6dip"
+            android:layout_weight="2"
+            android:scaleType="fitCenter"
+            android:src="@color/red_dark" />
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="6dip"
+            android:layout_weight="9" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/red_dark" />
+    <com.hct.zc.widget.ViewPagerCustomDuration
+        android:id="@+id/bus_form_vp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+</LinearLayout>

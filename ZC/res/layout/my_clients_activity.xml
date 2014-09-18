@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <ListView
+        android:id="@+id/clients_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="false" >
+    </ListView>
+    <LinearLayout
+        android:id="@+id/add_client_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D7D9DB"
+        android:gravity="center" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_add_product_gray"
+            android:drawablePadding="5dp"
+            android:text="添加客户"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+</LinearLayout>

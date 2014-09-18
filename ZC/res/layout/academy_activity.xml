@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_titlebar" />
+    <ExpandableListView
+        android:id="@+id/academy_elv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:childDivider="#E4E4E4"
+        android:childIndicator="@null"
+        android:divider="@drawable/div_my_product"
+        android:drawSelectorOnTop="false"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:groupIndicator="@null"
+        android:scrollingCache="false" >
+    </ExpandableListView>
+</LinearLayout>
