@@ -30,7 +30,7 @@ import com.umeng.analytics.MobclickAgent;
 
 /**
 
-安卓，苹果，谁主江山
+4563556566666666666666666666666666666666666666666666666
 
 */
 public class AcademyActivity extends BaseHttpActivity {
