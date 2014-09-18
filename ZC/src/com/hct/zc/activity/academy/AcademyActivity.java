@@ -29,9 +29,7 @@ import com.hct.zc.widget.TitleBar;
 import com.umeng.analytics.MobclickAgent;
 
 /**
-
-
-teaktljakdf;aljfalsdkfjas;dlfkjasdkl;fja
+Android，ios,king
 
 */
 public class AcademyActivity extends BaseHttpActivity {
