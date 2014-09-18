@@ -29,10 +29,11 @@ import com.hct.zc.widget.TitleBar;
 import com.umeng.analytics.MobclickAgent;
 
 /**
- * @todo 掌财学院.
- * @time 2014年5月4日 下午2:08:39
- * @author jie.liu-------------------------------------
- */
+
+
+teaktljakdf;aljfalsdkfjas;dlfkjasdkl;fja
+
+*/
 public class AcademyActivity extends BaseHttpActivity {
 
 	private ExpandableListView mExpandLV;
